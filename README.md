@@ -1,338 +1,350 @@
 
-# Recent_SLAM_Research
-【回馈社区】跟踪SLAM前沿动态(2019), [2018版](https://github.com/YiChenCityU/Recent_SLAM_Research/blob/master/README_2018.md) 技术更新太快，开启paper暴走模式，精选paper包括纯视觉SLAM，三维重建，基础数学工具，导航路径规划，深度学习SLAM，激光与视觉融合等类别。如果你发现我遗漏了本年度比较优秀的论文，请开issue留言，不胜感激。
+# Recent_SLAM_Research_2020
+【回馈社区】跟踪SLAM前沿动态[2019](https://github.com/YiChenCityU/Recent_SLAM_Research/blob/master/SLAM_Research_2019.md), [2018版](https://github.com/YiChenCityU/Recent_SLAM_Research/blob/master/SLAM_Research_2018.md) .去年大概收录了500篇关于SLAM的论文，因为本人在企业重点研究的是VSLAM以及多传感器融合，所以并没有把全部论文精读，难免有漏的或者差的。今年重点是求精以及做好分类，继续做好本圈儿的服务工作。
+欢迎在Issues里发布招聘信息。
+### ------------ ICRA 2020 
+#### OmniSLAM: Omnidirectional Localization and Dense Mapping for Wide-Baseline Multi-Camera Systems
+#### Real-Time Graph-Based SLAM with Occupancy Normal Distributions Transforms
+#### Spatio-Temporal Non-Rigid Registration of 3D Point Clouds of Plants
+#### Uncertainty-Based Adaptive Sensor Fusion for Visual-Inertial Odometry under Various Motion Characteristics
+#### Loam_livox: A Fast, Robust, High-Precision LiDAR Odometry and Mapping Package for LiDARs of Small FoV
+#### Active SLAM Using 3D Submap Saliency for Underwater Volumetric Exploration
+#### Are We Ready for Service Robots? the OpenLORIS-Scene Datasets for Lifelong SLAM
+#### Intensity Scan Context: Coding Intensity and Geometry Relations for Loop Closure Detection
+#### TextSLAM: Visual SLAM with Planar Text Features
+#### FlowNorm: A Learning-Based Method for Increasing Convergence Range of Direct Alignment
+#### Redesigning SLAM for Arbitrary Multi-Camera Systems
+#### Dynamic SLAM: The Need for Speed
+#### GradSLAM: Dense SLAM Meets Automatic Differentiation
+#### Long-Term Place Recognition through Worst-Case Graph Matching to Integrate Landmark Appearances and Spatial Relationships
+#### Linear RGB-D SLAM for Atlanta World
+#### Stereo Visual Inertial Odometry with Online Baseline Calibration
+#### Lidar-Monocular Visual Odometry Using Point and Line Features
+#### Probabilistic Data Association Via Mixture Models for Robust Semantic SLAM
+#### Closed-Loop Benchmarking of Stereo Visual-Inertial SLAM Systems: Understanding the Impact of Drift and Latency on Tracking Accuracy
+#### Metrically-Scaled Monocular SLAM Using Learned Scale Factors
+#### Inertial-Only Optimization for Visual-Inertial Initialization
+#### Hierarchical Quadtree Feature Optical Flow Tracking Based Sparse Pose-Graph Visual-Inertial SLAM
+#### Keypoint Description by Descriptor Fusion Using Autoencoders
+#### Towards Noise Resilient SLAM
+#### LAMP: Large-Scale Autonomous Mapping and Positioning for Exploration of Perceptually-Degraded Subterranean Environments
+#### Modeling Semi-Static Scenes with Persistence Filtering in Visual SLAM
+#### Broadcast Your Weaknesses: Cooperative Active Pose-Graph SLAM for Multiple Robots
+#### FlowFusion: Dynamic Dense RGB-D SLAM Based on Optical Flow
+#### Efficient Algorithms for Maximum Consensus Robust Fitting (I)
+#### MulRan: Multimodal Range Dataset for Urban Place Recognition
+#### GPO: Global Plane Optimization for Fast and Accurate Monocular SLAM Initialization
+#### Large-Scale Volumetric Scene Reconstruction Using LiDAR
+#### Topological Mapping for Manhattan-Like Repetitive Environments
+#### Structure-Aware COP-SLAM
+#### Robust RGB-D Camera Tracking Using Optimal Key-Frame Selection
+#### Voxgraph: Globally Consistent, Volumetric Mapping Using Signed Distance Function Submaps
+#### DeepFactors: Real-Time Probabilistic Dense Monocular SLAM
+#### DOOR-SLAM: Distributed, Online, and Outlier Resilient SLAM for Robotic Teams
+#### Windowed Bundle Adjustment Framework for Unsupervised Learning of Monocular Depth Estimation with U-Net Extension and Clip Loss
+#### StructVIO : Visual-Inertial Odometry with Structural Regularity of Man-Made Environments (I)
+#### Flow-Motion and Depth Network for Monocular Stereo and Beyond
+#### Online LiDAR-SLAM for Legged Robots with Robust Registration and Deep-Learned Loop Closure
+#### Hybrid Camera Pose Estimation with Online Partitioning for SLAM
+#### Analysis of Minima for Geodesic and Chordal Cost for a Minimal 2D Pose-Graph SLAM Problem
+#### Voxel Map for Visual SLAM
+#### LiDAR Inertial Odometry Aided Robust LiDAR Localization System in Changing City Scenes
+#### ROI-Cloud: A Key Region Extraction Method for LiDAR Odometry and Localization
+#### To Learn or Not to Learn: Visual Localization from Essential Matrices
+#### Hierarchical Multi-Process Fusion for Visual Place Recognition
+#### Camera Tracking in Lighting Adaptable Maps of Indoor Environments
+#### Fast, Compact and Highly Scalable Visual Place Recognition through Sequence-Based Matching of Overloaded Representations
+#### Vision-Based Multi-MAV Localization with Anonymous Relative Measurements Using Coupled Probabilistic Data Association Filter
+#### UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes
+#### Map As the Hidden Sensor: Fast Odometry-Based Global Localization
+#### Joint Human Pose Estimation and Stereo 3D Localization
+#### Self-Supervised Deep Pose Corrections for Robust Visual Odometry
+#### Ultra-High-Accuracy Visual Marker for Indoor Precise Positioning
+#### Accurate Position Tracking with a Single UWB Anchor
+#### Association-Free Multilateration Based on Times of Arrival
+#### Adversarial Feature Disentanglement for Place Recognition across Changing Appearance
+#### A Fast and Accurate Solution for Pose Estimation from 3D Correspondences
+#### Ground Texture Based Localization Using Compact Binary Descriptors
+#### Reliable Data Association for Feature-Based Vehicle Localization Using Geometric Hashing Methods
+#### Vehicle Localization Based on Visual Lane Marking and Topological Map Matching
+#### RISE: A Novel Indoor Visual Place Recogniser
+#### Beyond Photometric Consistency: Gradient-Based Dissimilarity for Improving Visual Odometry and Stereo Matching
+#### ICS: Incremental Constrained Smoothing for State Estimation
+#### Drone-Aided Localization in LoRa IoT Networks
+#### A Fast and Practical Method of Indoor Localization for Resource-Constrained Devices with Limited Sensing
+#### GN-Net: The Gauss-Newton Loss for Multi-Weather Relocalization
+#### A Data-Driven Motion Prior for Continuous-Time Trajectory Estimation on SE(3)
+#### Estimation with Fast Feature Selection in Robot Visual Navigation
+#### A Tightly Coupled VLC-Inertial Localization System by EKF
+#### Localization of Inspection Device Along Belt Conveyors with Multiple Branches Using Deep Neural Networks
+#### Localising PMDs through CNN Based Perception of Urban Streets
+#### The Complex-Step Derivative Approximation on Matrix Lie Groups
+#### Hybrid Localization Using Model and Learning-Based Methods: Fusion of Monte Carlo and E2E Localizations Via Importance Sampling
+#### Measurement Scheduling for Cooperative Localization in Resource-Constrained Conditions
+#### Quantifying Robot Localization Safety: A New Integrity Monitoring Method for Fixed-Lag Smoothing
+#### Visual Localization with Google Earth Images for Robust Global Pose Estimation of UAVs
+#### Relax and Recover: Guaranteed Range-Only Continuous Localization
+#### SPRINT: Subgraph Place Recognition for Intelligent Transportation
+#### OneShot Global Localization: Instant LiDAR-Visual Pose Estimation
+#### Relocalization on Submaps: Multi-Session Mapping for Planetary Rovers Equipped with Stereo Cameras
+#### DeepTIO: A Deep Thermal-Inertial Odometry with Visual Hallucination
+#### RSL-Net: Localising in Satellite Images from a Radar on the Ground
+#### Kidnapped Radar: Topological Radar Localisation Using Rotationally-Invariant Metric Learning
+#### Global Visual Localization in LiDAR-Maps through Shared 2D-3D Embedding Space
+#### Unsupervised Learning Methods for Visual Place Recognition in Discretely and Continuously Changing Environments
+#### LOL: Lidar-Only Odometry and Localization in 3D Point Cloud Maps
+#### Localising Faster: Efficient and Precise Lidar-Based Robot Localisation in Large-Scale Environments
+#### LiStereo: Generate Dense Depth Maps from LIDAR and Stereo Imagery
+#### Monocular Visual-Inertial Odometry in Low-Textured Environments with Smooth Gradients: A Fully Dense Direct Filtering Approach
+#### Gated Recurrent Fusion to Learn Driving Behaviour from Temporal Multimodal Data
+#### Cooperative Visual-Inertial Odometry: Analysis of Singularities, Degeneracies and Minimal Cases
+#### A Lightweight and Accurate Localization Algorithm Using Multiple Inertial Measurement Units
+#### Accelerating the Estimation of Metabolic Cost Using Signal Derivatives: Implications for Optimization and Evaluation of 
+#### Deep Depth Fusion for Black, Transparent, Reﬂective and Texture-Less Objects
+#### LiDAR-Enhanced Structure-From-Motion
+#### Low Latency and Low-Level Sensor Fusion for Automotive Use-Cases
+#### Spatiotemporal Camera-LiDAR Calibration: A Targetless and Structureless Approach
+#### Robot-Assisted and Wearable Sensor-Mediated Autonomous Gait Analysis
+#### Gaussian Process Preintegration for Inertial-Aided State Estimation
+#### A Code for Unscented Kalman Filtering on Manifolds (UKF-M)
+#### Efficient and Precise Sensor Fusion for Non-Linear Systems with Out-Of-Sequence Measurements by Example of Mobile Robotics
+#### UNO: Uncertainty-Aware Noisy-Or Multimodal Fusion for Unanticipated Input Degradation
+#### Intermittent GPS-Aided VIO: Online Initialization and Calibration
+#### A Mathematical Framework for IMU Error Propagation with Applications to Preintegration
+#### Radar-Inertial Ego-Velocity Estimation for Visually DegradedEnvironments
+#### Observability Analysis of Flight State Estimation for UAVs and Experimental Validation
+#### OpenVINS: A Research Platform for Visual-Inertial Estimation
+#### Decentralized Collaborative State Estimation for Aided Inertial Navigation
+#### Analytic Combined IMU Integration (ACI^2) for Visual Inertial Navigation
+#### Second-Order Kinematics for Floating-Base Robots Using the Redundant Acceleration Feedback of an Artificial Sensory Skin
+#### Clock-Based Time Synchronization for an Event-Based Camera Dataset Acquisition Platform
+#### Set-Membership State Estimation by Solving Data Association
+#### SLOAM: Semantic Lidar Odometry and Mapping for Forest Inventory
+#### Unified Intrinsic and Extrinsic Camera and LiDAR Calibration under Uncertainties
+#### AC/DCC : Accurate Calibration of Dynamic Camera Clusters for Visual SLAM
+#### Analytic Plane Covariances Construction for Precise Planarity-Based Extrinsic Calibration of Camera and LiDAR
+#### A Stable Adaptive Observer for Hard-Iron and Soft-Iron Bias Calibration and Compensation for Two-Axis Magnetometers: Theory and Experimental Evaluation
+#### Extrinsic Calibration of an Eye-In-Hand 2D LiDAR Sensor in Unstructured Environments Using ICP
+#### Geometric Robot Dynamic Identification: A Convex Programming Approach (I)
+#### A Novel Calibration Method between a Camera and a 3D LiDAR with Infrared Images
+#### Online Camera-LiDAR Calibration with Sensor Semantic Information
+#### Precise 3D Calibration of Wafer Handling Robot by Visual Detection and Tracking of Elliptic-Shape Wafers
+#### Globally Optimal Relative Pose Estimation for Camera on a Selfie Stick
+#### Online Calibration of Exterior Orientations of a Vehicle-Mounted Surround-View Camera System
+#### Learning Camera Miscalibration Detection
+#### Exploring Performance Bounds of Visual Place Recognition Using Extended Precision
+#### Deep Reinforcement Learning for Instruction Following Visual Navigation in 3D Maze-Like Environments
+#### Aggressive Perception-Aware Navigation Using Deep Optical Flow Dynamics and PixelMPC
+#### Visual-Inertial Mapping with Non-Linear Factor Recovery
+#### Interactive Gibson Benchmark: A Benchmark for Interactive Navigation in Cluttered Environments
+#### Highly Robust Visual Place Recognition through Spatial Matching of CNN Features
+#### Robust and Efficient Estimation of Absolute Camera Pose for Monocular Visual Odometry
+#### Robust Vision-Based Obstacle Avoidance for Micro Aerial Vehicles in Dynamic Environments
+#### Proximity Estimation Using Vision Features Computed on Sensor
+#### Efficient Globally-Optimal Correspondence-Less Visual Odometry for Planar Ground Vehicles
+#### EgoTEB: Egocentric, Perception Space Navigation Using Timed-Elastic-Bands
+#### Graduated Non-Convexity for Robust Spatial Perception: From Non-Minimal Solvers to Global Outlier Rejection
+#### Reliable Frame-To-Frame Motion Estimation for Vehicle-Mounted Surround-View Camera Systems
+#### Enabling Topological Planning with Monocular Vision
+#### DeepMEL: Compiling Visual Multi-Experience Localization into a Deep Neural Network
+#### SnapNav: Learning Mapless Visual Navigationwith Sparse Directional Guidance and Visual Reference
+#### Kimera: An Open-Source Library for Real-Time Metric-Semantic Localization and Mapping
+#### CityLearn: Diverse Real-World Environments for Sample-Efficient Navigation Policy Learning
+#### Constrained Filtering-Based Fusion of Images, Events, and Inertial Measurements for Pose Estimation
+#### Schmidt-EKF-Based Visual-Inertial Moving Object Tracking
+#### Learning View and Target Invariant Visual Servoing for Navigation
+#### Tightly-Coupled Single-Anchor Ultra-Wideband-Aided Monocular Visual Odometry System
+#### Scaling Local Control to Large-Scale Topological Navigation
+#### Zero-Shot Imitation Learning from Demonstrations for Legged Robot Visual Navigation
+#### Test Your SLAM! the SubT-Tunnel Dataset and Metric for Mapping
+#### YCB-M: A Multi-Camera RGB-D Dataset for Object Recognition and 6DoF Pose Estimation
+#### A Unified Framework for Piecewise Semantic Reconstruction in Dynamic Scenes Via Exploiting Superpixel Relations
+#### Keyframe-Based Dense Mapping with the Graph of View-Dependent Local Maps
+#### Informative Path Planning for Active Mapping under Localization Uncertainty
+#### Ensemble of Sparse Gaussian Process Experts for Implicit Surface Mapping with Streaming Data
+#### Robust Method for Removing Dynamic Objects from Point Clouds
+#### Skeleton-Based Conditionally Independent Gaussian Process Implicit Surfaces for Fusion in Sparse to Dense 3D Reconstruction
+#### Motion Estimation in Occupancy Grid Maps in Stationary Settings Using Recurrent Neural Networks
+#### A Divide and Conquer Method for 3D Registration of Inhomogeneous, Partially Overlapping Scans with Fourier Mellin SOFT (FMS)
+#### Estimating Motion Uncertainty with Bayesian ICP
+#### Actively Mapping Industrial Structures with Information Gain-Based Planning on a Quadruped Robot
+#### Efficient Covisibility-Based Image Matching for Large-Scale SfM
+#### Probabilistic TSDF Fusion Using Bayesian Deep Learning for Dense 3D Reconstruction with a Single RGB Camera
+#### A Volumetric Albedo Framework for 3D Imaging Sonar Reconstruction
+#### Map Management Approach for SLAM in Large-Scale Indoor and Outdoor Areas
+#### A Hierarchical Framework for Collaborative Probabilistic Semantic Mapping
+#### Autonomous Navigation in Unknown Environments Using Sparse Kernel-Based Occupancy Mapping
+#### Hybrid Topological and 3D Dense Mapping through Autonomous Exploration for Large Indoor Environments
+#### Resolving Marker Pose Ambiguity by Robust Rotation Averaging with Clique Constraints
+#### Moving Object Detection for Visual Odometry in a Dynamic Environment Based on Occlusion Accumulation
+### ------------ ICRA 2020 终止线 ----------
 
-### 招聘
-即将上市机器人独角兽广招SLAM算法工程师。
-邮箱：easonjianghk@gmail.com
+### ------------ CVPR 2020 
+### ------------ CVPR 2020 终止线 ----------
+### ------------ ECCV 2020 
+### ------------ ECCV 2020 终止线 ----------
+### ------------ IROS 2020 
+### ------------ IROS 2020 终止线 ----------
+### ------------ ICCV 2020 
+### ------------ ICCV 2020 终止线 ----------
+
+### SLAM
+#### 1. [Semantic SLAM] 2020-01-13-[Visual Semantic SLAM with Landmarks for Large-Scale Outdoor Environment](https://arxiv.org/pdf/2001.01028.pdf)  Only label the point clouds with semantic segmentation info, no improvement in accuarcy. [code](https://github.com/1989Ryan/Semantic_SLAM/)
+#### 2. [Calibration] 2020-01-13-[A Generalized Framework for Autonomous Calibration of Wheeled Mobile Robots](https://arxiv.org/pdf/2001.01555.pdf) 
+#### 3. [VSLAM] 2020-01-13-[Trained Trajectory based Automated Parking System using Visual SLAM](https://arxiv.org/pdf/2001.02161.pdf) 
+#### 4. [Deep SLAM] 2020-01-13-[AD-VO: SCALE-RESILIENT VISUAL ODOMETRY USING ATTENTIVE DISPARITY MAP](https://arxiv.org/pdf/2001.02090.pdf)  Learned based frame to frame VO with the input as disparity map.
+#### 5. [Lidar Deep SLAM] 2020-01-13-[CAE-LO: LiDAR Odometry Leveraging Fully Unsupervised Convolutional Auto-Encoder for Interest Point Detection and Feature Description](https://arxiv.org/pdf/2001.01354.pdf) Auto-Encoder based LiDAR Odometry (CAE-LO) that detects interest points from spherical ring data using 2D CAE and extracts features from multi-resolution voxel model using 3D CAE.  [code](https://github.com/SRainGit/CAE-LO) 
+#### 6. [VSLAM] 2020-01-13-[Good Feature Matching: Towards Accurate, Robust VO/VSLAM with Low Latency](https://arxiv.org/pdf/2001.00714.pdf) Introduction of an efficient good feature selection algorithm using the Max-logDet metric, which is an order of magnitude faster than state-of-the-art feature selection approaches. [code](https://github.com/ivalab/GF_ORB_SLAM)  
+#### 7. [VSLAM] 2020-01-13-[Direct Sparse Visual-Inertial Odometry with Stereo Cameras](https://candyguo.github.io/files/1.pdf) Quantitative evaluation demonstrates that the proposed Stereo VI-DSO is superior to Stereo DSO both in terms of tracking accuracy and robustness. But the result is worse than VINS.
+#### 8. [VSLAM] 2020-01-14-[Accurate Line Reconstruction for Point and Line-Based Stereo Visual Odometry](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8936964) 
+#### 9. [VSLAM] 2020-01-14-[A Stereo Visual-Inertial SLAM Approach for Indoor Mobile Robots in Unknown Environments Without Occlusions](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8937551) Use one-circle feature-matching method, which refers to a sequence of the circle matching for the time after space (STCM), and an STCM-based visual-inertial simultaneous localization and mapping (STCM-SLAM) technique.
+#### 10. [Lidar Seg] 2020-01-14-[Multi-Scale Point-Wise Convolutional Neural Networks for 3D Object Segmentation From LiDAR Point Clouds in Large-Scale Environments](https://ieeexplore.ieee.org/abstract/document/8943956/authors#authors) 
+#### 11. [Review] 2020-01-14-[Multi-Sensor Fusion in Automated Driving: A Survey](https://sci-hub.tw/10.1109/ACCESS.2019.2962554) 
+#### 12. [Lidar Deep SLAM] 2020-01-14-[SLOAM: Semantic Lidar Odometry and Mapping for Forest Inventory](https://arxiv.org/pdf/1912.12726.pdf) 
+#### 13. [Deep SLAM] 2020-01-22-[Learning Topometric Semantic Maps from Occupancy Grids](https://arxiv.org/pdf/2001.03676.pdf) 2D laser semantic map. 
+#### 14. [VSLAM] 2020-01-22-[Temporal Delay Estimation of Sparse Direct Visual Inertial Odometry for Mobile Robots](https://sci-hub.tw/https://doi.org/10.1016/j.jfranklin.2019.11.075) Calibrate the time offset between IMU and Camera.
+#### 15. [IMU] 2020-02-06-[A Lightweight and Accurate Localization Algorithm Using Multiple Inertial Measurement Units](https://sci-hub.tw/10.1109/LRA.2020.2969146) The overall performance of SLAM can be further improved by using multiple IMUs. 
+#### 16. [Lidar SLAM] 2020-02-10-[Localization of Map Changes by Exploiting SLAM Residuals](https://link.springer.com/chapter/10.1007/978-3-030-40605-9_27) identify changes in maps constructed by SLAM.
+#### 17. [VSLAM] 2020-02-10-[Bidirectional Trajectory Computation for Odometer-Aided Visual-Inertial SLAM](https://arxiv.org/pdf/2002.00195.pdf) not only solves the problem of the unobservability of accelerometer bias and extrinsic parameters before the first turning, but also results in more accurate trajectories in comparison with the state-of-the-art approaches.
+#### 18. [EKF] 2020-02-10-[A Code for Unscented Kalman Filtering on Manifolds (UKF-M)](https://arxiv.org/pdf/2002.00878.pdf) a novel methodology for Unscented Kalman Filtering (UKF) on manifolds that extends our previous work about UKF on Lie groups.
+#### 19. [New sensor] 2020-02-10-[Corners positioning for binocular ultra-wide angle long-wave infrared camera calibration](https://www.sciencedirect.com/science/article/abs/pii/S0030402619313397) calibrating binocular ultra-wide angle long-wave infrared camera.
+#### 20. [VSLAM] 2020-02-12-[Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping](https://arxiv.org/pdf/1910.02490.pdf) VIO + Dense mapping + Semantic 
+#### 21. [Semantic] 2020-02-12-[Edge Assisted Mobile Semantic Visual SLAM](http://tns.thss.tsinghua.edu.cn/~jingao/papers/infocom20_edgeSLAM.pdf) edgeSLAM leverages the state-of-the-art semantic segmentation algorithm to enhance localization and mapping accuracy, and speeds up the computation-intensive SLAM and semantic segmentation algorithms by computation offloading.
+#### 22. [lidar SLAM] 2020-02-12-[Online LiDAR-SLAM for Legged Robots with Robust Registration and Deep-Learned Loop Closure](https://arxiv.org/pdf/2001.10249.pdf)In this paper, we present a factor-graph LiDARSLAM system which incorporates a state-of-the-art deeply learned feature-based loop closure detector to enable a legged robot to localize and map in industrial environments. 
+#### 23. [Semantic] 2020-02-14-[Tightly Coupled Semantic RGB-D Inertial Odometry for Accurate Long-Term Localization and Mapping](https://ieeexplore.ieee.org/abstract/document/8981658) utilize semantically enhanced feature matching and visual inertial bundle adjustment to improve the robustness of odometry especially in feature-sparse environments.
+#### 24. [VIO] 2020-02-14-[Visual-Inertial Ego-Motion Estimation using Rolling-Shutter Camera in autonomous driving](https://pdfs.semanticscholar.org/3c90/940d1572789aa6459e443bede87fdfcb8b86.pdf) interpolate the IMU pose between consecutive poses and set up a novel feature measurement error model to cover the time delay issues. 
+#### 25. [VIO] 2020-02-14-[EIP-VIO: Edge-Induced Points Based Monocular Visual-Inertial Odometry](https://ieeexplore.ieee.org/abstract/document/8982582) propose an improved and practical monocular visual-inertial odometry method based on selective edge points.
+#### 26. [Event camera] 2020-02-14-[Sepia, Tarsier, and Chameleon: A Modular C++ Framework for Event-Based Computer Vision](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6960268/) A framework to process Event camera.  [code]( https://github.com/neuromorphic-paris/tutorials)
+#### 27. [Multimodal localization] 2020-02-14-[Multimodal localization: Stereo over LiDAR map](https://sci-hub.tw/https://doi.org/10.1002/rob.21936) Visual localization in lidar map. 
+#### 28. [2D SLAM] 2020-02-15-[x A Triangle Feature Based Map-to-map Matching and Loop Closure for 2D Graph SLAM](https://sci-hub.tw/10.1109/ROBIO49542.2019.8961777)  We propose a geometric environment descriptor called a Triangle Feature (TF). It exploits the Euclidean distance constraint any three feature points in a submap can form.
+#### 29. [Doctor paper] 2020-02-15-[Enabling Robust State Estimation through Covariance Adaptation ](https://www.researchgate.net/profile/Ryan_Watson7/publication/338595333_Enabling_Robust_State_Estimation_through_Covariance_Adaptation/links/5e1ec497299bf136303af241/Enabling-Robust-State-Estimation-through-Covariance-Adaptation.pdf) 
+#### 30. [Multirobots] 2020-02-15-[Statistical Outlier Identification in Multi-robot Visual SLAM using Expectation Maximization](https://arxiv.org/pdf/2002.02638.pdf) This paper presents a probabilistic approach for detecting incorrect orientation measurements prior to pose graph optimization by checking the geometric consistency of rotation measurements. 
+#### 31. [Math] 2020-02-15-[New approach to calculating the fundamental matrix](https://search.proquest.com/openview/7a8ffa8ef7031b50a8b9b2a7fe041f6b/1?pq-origsite=gscholar&cbl=1686344)
+#### 32. [Math] 2020-02-16-[IMPROVING THE APPLICABILITY OF VISUAL SLAM WITH SUBMODULAR SUBMATRIX SELECTION](https://smartech.gatech.edu/bitstream/handle/1853/62276/ZHAO-DISSERTATION-2019.pdf) 
+#### 33. [VSLAM] 2020-02-16-[DeepFactors: Real-Time Probabilistic Dense Monocular SLAM](https://arxiv.org/pdf/2001.05049.pdf) use of a learned compact depth map representation and reformulating three different types of errors: photometric, reprojection and geometric, which we make use of within standard factor graph software. [code](https://github.com/jczarnowski/DeepFactors)
+#### 34. [VSLAM] 2020-02-16-[Direct Visual-Inertial Ego-Motion Estimationv via Iterated Extended Kalman Filter](https://arxiv.org/pdf/2001.05215.pdf)
+#### 35. [VSLAM] 2020-02-16-[Multi-object Monocular SLAM for Dynamic Environments](https://arxiv.org/pdf/2002.03528.pdf)
+#### 36. [LOOP] 2020-02-16-[Hierarchical Multi-Process Fusion for Visual Place Recognition](https://arxiv.org/pdf/2002.03895.pdf)
+#### 37. [2D LSLAM] 2020-02-21-[GP-SLAM: laser-based SLAM approach based on regionalized Gaussian process map reconstruction](https://sci-hub.tw/https://doi.org/10.1007/s10514-020-09906-z)
+#### 38. [RGBD SLAM] 2020-02-21-[Accurate and Robust RGB-D Dense Mapping with Inertial Fusion and Deformation-Graph Optimization](https://ieeexplore.ieee.org/abstract/document/8995400/authors#authors)
+#### 39. [VSLAM] 2020-03-02-[Dynamic SLAM: The Need For Speed](https://arxiv.org/pdf/2002.08584.pdf)feature-based, model-free, object-aware dynamic SLAM algorithm that exploits semantic segmentation to allow estimation of motion of rigid objects in a scene without the need to estimate the object poses or have any prior knowledge of their 3D models.
+#### 40. [VSLAM] 2020-03-04-[Monocular Direct Sparse Localization in a Prior 3D Surfel Map](https://arxiv.org/pdf/2002.09923.pdf) tracking the pose of a monocular camera in a prior surfel map.
+#### 41. [Semantic slam] 2020-03-04-[Comparing View-Based and Map-Based Semantic Labelling in Real-Time SLAM](https://arxiv.org/pdf/2002.10342.pdf) 
+#### 42. [Math] 2020-03-04-[Least Squares Optimization: from Theory to Practice](https://arxiv.org/pdf/2002.11051.pdf) a unified methodology to design and develop efficient Least-Squares Optimization algorithms, focusing on the structures and patterns of each specific domain.[code](https://github.com/srrg-sapienza/srrg2_solver)
+#### 43. [RGBD] 2020-03-04-[Perception in the Dark—Development of a ToF Visual Inertial Odometry System](https://www.mdpi.com/1424-8220/20/5/1263)  [code](https://github.com/HKPolyU-UAV/TOF-VIO)
+#### 44. [Event Camera] 2020-03-04-[Robust Feature Tracking in DVS Event Stream using Bezier Mapping](http://openaccess.thecvf.com/content_WACV_2020/papers/Seok_Robust_Feature_Tracking_in_DVS_Event_Stream_using_Bezier_Mapping_WACV_2020_paper.pdf) 
+#### 45. [Deep SLAM] 2020-03-05-[Self-Supervised Deep Pose Corrections for Robust Visual Odometry](https://arxiv.org/pdf/2002.12339.pdf) uses data-driven learning to regress pose corrections that account for systematic errors due to violations of modelling assumptions. [code](https://github.com/utiasSTARS/ss-dpc-net)
+#### 46. [Doctor thesis] 2020-03-05-[Custom hardware architectures for embedded high-performance and low-power SLAM](https://spiral.imperial.ac.uk/bitstream/10044/1/76491/1/Boikos-K-2019-PhD-Thesis.pdf)
+#### 47. [VSLAM] 2020-03-05-[Visual Camera Re-Localization from RGB and RGB-D Images Using DSAC](https://arxiv.org/pdf/2002.12324.pdf)
+#### 48. [Deep SLAM] 2020-03-09-[D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/pdf/2003.01060.pdf)
+#### 49. [VSLAM] 2020-03-09-[Closed-Loop Benchmarking of Stereo Visual-Inertial SLAM Systems: Understanding the Impact of Drift and Latency on Tracking Accuracy](https://arxiv.org/pdf/2003.01317.pdf)
+#### 50. [Deep SLAM] 2020-03-09-[MVP: Unified Motion and Visual Self-Supervised Learning for Large-Scale Robotic Navigation](https://arxiv.org/pdf/2003.00667.pdf)
+#### 51. [LOOP] 2020-03-09-[Augmenting Visual Place Recognition with Structural Cues](https://arxiv.org/pdf/2003.00278.pdf)
+#### 52. [VSLAM] 2020-03-09-[Robust tightly coupled pose estimation based on monocular vision, inertia, and wheel speed](https://arxiv.org/pdf/2003.01496.pdf)
+#### 53. [VSLAM] 2020-03-09-[Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use](https://arxiv.org/pdf/2003.00754.pdf) [code](https://github.com/srrg-sapienza/srrg2_slam_interfaces)
+#### 54. [VSLAM] 2020-03-09-[MiniVO: Minimalistic Range Enhanced Monocular System for Scale Correct Pose Estimation](https://www.researchgate.net/publication/339629457_MiniVO_Minimalistic_Range_Enhanced_Monocular_System_for_Scale_Correct_Pose_Estimation) [code](https://gitlab.com/Giubilato/alti-cam-calib)
+#### 55. [VSLAM] 2020-03-09-[Robust Visual-Inertial Integrated Navigation System  Aided by Online Sensor Model Adaption for  Autonomous Ground Vehicles in Urban Areas](https://www.preprints.org/manuscript/202003.0018/v1)
+#### 56. [VSLAM] 2020-03-16-[StereoNeuroBayesSLAM: A Neurobiologically Inspired Stereo Visual SLAM System Based on Direct Sparse Method](https://arxiv.org/pdf/2003.03091.pdf)
+#### 57. [Math] 2020-03-16-[Bundle Adjustment on a Graph Processor](https://arxiv.org/pdf/2003.03134.pdf)
+#### 58. [VSLAM] 2020-03-16-[Voxel Map for Visual SLAM](https://arxiv.org/pdf/2003.02247.pdf)
+#### 59. [LSLAM] 2020-03-16-[LiDAR Inertial Odometry Aided Robust LiDAR Localization System in Changing City Scenes](https://songshiyu01.github.io/pdf/LIO_W.Ding_S.Song_ICRA2020.pdf)
+#### 60. [VSLAM] 2020-03-16-[Redesigning SLAM for Arbitrary Multi-Camera Systems](https://arxiv.org/pdf/2003.02014.pdf)
+#### 61. [VSLAM] 2020-03-19-[DymSLAM:4D Dynamic Scene Reconstruction Based on Geometrical Motion Segmentation](https://arxiv.org/pdf/2003.04569.pdf)
+#### 62. [LSALM] 2020-03-19-[Tightly-coupled Fusion of Global Positional Measurements in Optimization-based Visual-Inertial Odometry](https://arxiv.org/pdf/2003.04159.pdf)
+#### 63. [VSLAM] 2020-03-19-[FlowFusion: Dynamic Dense RGB-D SLAM Based on Optical Flow](https://arxiv.org/pdf/2003.05102.pdf)
+#### 64. [VSLAM] 2020-03-19-[Inertial-Only Optimization for Visual-Inertial Initialization](https://arxiv.org/pdf/2003.05766.pdf)
+#### 65. [VSLAM] 2020-03-19-[Extrinsic Calibration of Multiple RGB-D Cameras Based on Descriptor-based Patterns](https://arxiv.org/pdf/1807.07856v2.pdf)
+#### 66. [VSLAM] 2020-03-19-[SD-VIS: A Fast and Accurate Semi-Direct Monocular Visual-Inertial Simultaneous Localization and Mapping (SLAM)](https://www.mdpi.com/1424-8220/20/5/1511/htm)
+#### 67. [Calibration] 2020-03-19-[A fast calibration approach for onboard LiDAR-camera systems](https://journals.sagepub.com/doi/pdf/10.1177/1729881420909606)
+#### 68. [Edge SLAM] 2020-03-24-[Robust Monocular Edge Visual Odometry through Coarse-to-Fine Data Association](https://www.researchgate.net/publication/336056167_Robust_Monocular_Edge_Visual_Odometry_through_Coarse-to-Fine_Data_Association?_esc=publicationCoverPdf&el=1_x_3&enrichId=rgreq-82bc69ebf992513f26edb9e73f9e23eb-XXX&enrichSource=Y292ZXJQYWdlOzMzNjA1NjE2NztBUzo4Njk4NTc1Mjg2NTU4NzJAMTU4NDQwMTYwNDEyNQ%3D%3D)
+#### 69. [Math] 2020-03-24-[Learning 2D–3D Correspondences To Solve The Blind Perspective-n-Point Problem](https://arxiv.org/pdf/2003.06752.pdf)
+#### 70. [LSLAM] 2020-03-24-[An Experimental Evaluation of Robustness and Precision for Long-term LiDAR-based Localization in Highly Changing Environments](https://arxiv.org/pdf/2003.07726.pdf)
+#### 71. [AR] 2020-03-24-[A novel augmented reality framework based on monocular semi-dense simultaneous localization and mapping](https://sci-hub.tw/https://doi.org/10.1002/cav.1922)
+#### 72. [VSLAM] 2020-04-03-[OmniSLAM: Omnidirectional Localization and Dense Mapping for Wide-baseline Multi-camera Systems](https://arxiv.org/pdf/2003.08056.pdf)
+#### 73. [VSLAM] 2020-04-03-[Monocular Visual–Inertial SLAM Algorithm Combined with Wheel Speed Anomaly Detection](https://arxiv.org/pdf/2003.09901.pdf)
+#### 74. [VSLAM] 2020-04-07-[Removing Dynamic Objects for Static Scene Reconstruction using Light Fields](https://arxiv.org/pdf/2003.11076.pdf)
+#### 75. [VSLAM] 2020-04-07-[Multi-camera visual SLAM for off-road navigation](https://www.sciencedirect.com/science/article/pii/S0921889019308711)
+#### 76. [VSLAM] 2020-04-07-[Long-Term Loop Closure Detection through Visual-Spatial Information Preserving Multi-Order Graph Matching](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-GaoP.6907.pdf)
+#### 77. [VSLAM] 2020-04-13-[Coupling of localization and depth data for mapping using Intel RealSense T265 and D435i cameras](https://arxiv.org/pdf/2004.00269.pdf)
+#### 78. [Calibration] 2020-04-13-[On-the-Fly Camera and Lidar Calibration](https://www.mdpi.com/2072-4292/12/7/1137/pdf)
+#### 79. [Event Camera] 2020-04-13-[Single Image Optical Flow Estimation with an Event Camera](https://arxiv.org/pdf/2004.00347.pdf)
+#### 80. [VSLAM] 2020-04-13-[Monocular Camera Localization in Prior LiDAR Maps with 2D-3D Line Correspondences](https://arxiv.org/pdf/2004.00740.pdf) [code](https://github.com/levenberg/2D-3D-pose-tracking)
+#### 81. [Fusion] 2020-04-13-[Scene-Aware Error Modeling of LiDAR/Visual Odometry for Fusion-based Vehicle Localization](https://arxiv.org/pdf/2003.13109.pdf)
+#### 82. [Dataset] 2020-04-13-[TartanAir: A Dataset to Push the Limits of Visual SLAM](https://arxiv.org/pdf/2003.14338.pdf)
+#### 83. [VSLAM] 2020-04-13-[ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings](https://arxiv.org/pdf/2003.12980.pdf)
+#### 84. [DeepSLAM] 2020-04-13-[DeepSLAM: A Robust Monocular SLAM System with Unsupervised Deep Learning](https://ieeexplore.ieee.org/abstract/document/9047170)
+#### 85. [Fusion] 2020-04-13-[Tightly-coupled Fusion of Global Positional Measurements in Optimization-based Visual-Inertial Odometry](https://arxiv.org/pdf/2003.04159.pdf)
+#### 86. [GPU] 2020-04-13-[Faster than FAST: GPU-Accelerated Frontend for High-Speed VIO](https://arxiv.org/pdf/2003.13493.pdf) [code](https://github.com/uzh-rpg/vilib)
+#### 87. [Descriptor] 2020-04-27-[BEBLID: Boosted Efficient Binary Local Image Descriptor](https://sci-hub.tw/https://doi.org/10.1016/j.patrec.2020.04.005) [code](https://github.com/iago-suarez/BEBLID)
+#### 88. [Doctor thesis] 2020-04-27-[Robust Visual SLAM in Challenging Environments with low-texture and Dynamic Illumination](https://riuma.uma.es/xmlui/bitstream/handle/10630/19479/TD_GOMEZ_OJEDA_Ruben.pdf?sequence=1&isAllowed=y)
+#### 89. [LSLAM] 2020-04-27-[CAE-LO: LiDAR Odometry Leveraging Fully Unsupervised Convolutional Auto-Encoder for Interest Point Detection and Feature Description](https://arxiv.org/pdf/2001.01354.pdf) [code](https://github.com/SRainGit/CAE-LO)
+#### 90. [VSLAM] 2020-04-27-[Object-oriented SLAM using Quadrics and Symmetry Properties for Indoor Environments](https://arxiv.org/pdf/2004.05303.pdf)
+#### 91. [VSLAM] 2020-04-27-[Online Initialization and Extrinsic Spatial-Temporal Calibration for Monocular Visual-Inertial Odometry](https://arxiv.org/pdf/2004.05534.pdf)
+#### 92. [VSLAM] 2020-04-27-[Latency Compensated Visual-Inertial Odometry for Agile Autonomous Flight](https://www.researchgate.net/publication/340650710_Latency_Compensated_Visual-Inertial_Odometry_for_Agile_Autonomous_Flight)
+#### 93. [Descriptor] 2020-04-27-[Visual Descriptor Learning from Monocular Video](https://arxiv.org/pdf/2004.07007.pdf)
+#### 94. [radar slam] 2020-05-19-[RadarSLAM: Radar based Large-Scale SLAM in All Weathers](https://arxiv.org/pdf/2005.02198.pdf)
+#### 95. [lidar slam] 2020-05-19-[SROM: Simple Real-time Odometry and Mapping using LiDAR data for Autonomous Vehicles](https://arxiv.org/pdf/2005.02042.pdf)
+#### 96. [MSCKF] 2020-05-19-[Improving S-MSCKF with Variational Bayesian Adaptive Nonlinear Filter](https://ieeexplore.ieee.org/abstract/document/9076179/authors#authors)
+#### 97. [Fusion] 2020-05-19-[Robust IMU/GPS/VO integration for vehicle navigation in GNSS degraded urban areas](https://ieeexplore.ieee.org/abstract/document/9075286/authors#authors)
+#### 98. [Fusion] 2020-05-19-[Tightly-coupled Vision-Gyro- Wheel Odometry for Ground Vehicle with Online Extrinsic Calibration](https://ieeexplore.ieee.org/abstract/document/9081840/authors#authors)
+#### 99. [I-LOAM] 2020-05-19-[I-LOAM: Intensity Enhanced LiDAR Odometry and Mapping](https://irap.kaist.ac.kr/publications/yspark-2020-ur.pdf)
+#### 100. [VSLAM] 2020-05-25-[EAO-SLAM: Monocular Semi-Dense Object SLAM Based on Ensemble Data Association](https://arxiv.org/pdf/2004.12730.pdf)
+#### 101. [Mono slam] 2020-05-25-[GPO: Global Plane Optimization for Fast and Accurate Monocular SLAM Initialization](https://arxiv.org/pdf/2004.12051.pdf)
+#### 102. [Life-long] 2020-05-25-[Mapillary Street-Level Sequences: A Dataset for Lifelong Place Recognition](http://www2.compute.dtu.dk/~sohau/papers/cvpr2020/warburgCVPR2020.pdf)
+#### 103. [Feature] 2020-05-25-[Learning Feature Descriptors using Camera Pose Supervision](https://arxiv.org/pdf/2004.13324.pdf)
+#### 104. [Line and point] 2020-05-25-[Leveraging Planar Regularities for Point Line Visual-Inertial Odometry](https://arxiv.org/pdf/2004.11969.pdf)
+#### 105. [Radar slam] 2020-05-25-[See Through Smoke: Robust Indoor Mapping with Low-cost mmWave Radar](http://www.cs.ox.ac.uk/files/11899/_MobiSys_20__milliMap.pdf)
+#### 106. [lidar] 2020-05-25-[Evaluating the Limits of a LiDAR for an Autonomous Driving Localization](https://ieeexplore.ieee.org/abstract/document/9059023)
+#### 107. [DL-VSLAM] 2020-05-27-[Towards End-to-end Learning of Visual Inertial Odometry with an EKF](https://www.computerrobotvision.org/proceedings/pdfs/CRV2020-1ugoWdlO2rSdvYvbAocrmh/989100a190/989100a190.pdf) [code](https://github.com/lichunshang/deep_ekf_vio)
+#### 108. [New sensor] 2020-05-27-[BIT-VO: Visual Odometry at 300 FPS using Binary Features from the Focal Plane](https://arxiv.org/pdf/2004.11186.pdf)
+#### 109. [VSLAM] 2020-05-27-[Point-Plane SLAM Using Supposed Planes for Indoor Environments](https://github.com/fishmarch/SP-SLAM) [code](https://github.com/fishmarch/SP-SLAM)
+#### 110. [VSLAM] 2020-05-27-[Indoor Localization Based on VIO System and Three-Dimensional Map Matching](https://www.mdpi.com/1424-8220/20/10/2790/pdf)
+#### 111. [Long term] 2020-05-27-[Dense Semantic 3D Map Based Long-Term Visual Localization with Hybrid Features](https://arxiv.org/pdf/2005.10766.pdf)
+#### 112. [Calibration] 2020-06-02-[Improvements to Target-Based 3D LiDAR to Camera Calibration](https://arxiv.org/pdf/1910.03126.pdf)
+#### 113. [VSLAM] 2020-06-02-[VDO-SLAM: A Visual Dynamic Object-aware SLAM System](https://arxiv.org/pdf/2005.11052.pdf) [code](https://github.com/halajun/vdo_slam)
+#### 114. [Loop Detect] 2020-06-02-[OverlapNet: Loop Closing for LiDAR-based SLAM](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2020rss.pdf) [code](https://github.com/PRBonn/OverlapNet)
+#### 115. [VSLAM] 2020-06-16-[Robust Estimation of Absolute Camera Pose via Intersection Constraint and Flow Consensus](https://ieeexplore.ieee.org/abstract/document/9091036)
+#### 116. [Semantic SLAM] 2020-06-16-[View-Invariant Loop Closure with Oriented Semantic Landmarks](http://www.cim.mcgill.ca/~jimmyli/pubs/li2020icra.pdf)
+#### 117. [VSLAM] 2020-06-16-[Proactive Camera Attribute Control Using Bayesian Optimization for Illumination-Resilient Visual Navigation](https://ieeexplore.ieee.org/abstract/document/9098963)
+#### 118. [Event camera] 2020-06-16-[Event-Based Visual-Iner ent-Based Visual-Inertial Odometr tial Odometry Using Smar y Using Smart Features ](https://scholar.afit.edu/cgi/viewcontent.cgi?article=4173&context=etd)
+#### 119. [Thesis] 2020-06-16-[Robust and Unsupervised Interest Point Detection for Efficient Visual Odometry](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-64.pdf)
+#### 120. [VSLAM] 2020-06-16-[FUSION OF REAL TIME THERMAL IMAGE AND 1D/2D/3D DEPTH LASER READINGS FOR REMOTE THERMAL SENSING IN INDUSTRIAL PLANTS BY MEANS OF UAVs and/or ROBOTS](https://arxiv.org/pdf/2006.01286.pdf)
+#### 121. [VIR-SLAM] 2020-06-16-[VIR-SLAM: Visual, Inertial, and Ranging SLAM for single and multi-robot systems](https://arxiv.org/pdf/2006.00420.pdf)
+#### 122. [Math] 2020-06-16-[An Efficient Planar Bundle Adjustment Algorithm](https://arxiv.org/pdf/2006.00187.pdf)
+#### 123. [GPS+VIO] 2020-06-16-[Intermittent GPS-aided VIO: Online Initialization and Calibration](https://www.researchgate.net/profile/Patrick_Geneva/publication/341713067_Intermittent_GPS-aided_VIO_Online_Initialization_and_Calibration/links/5ed0063b299bf1c67d26cf5d/Intermittent-GPS-aided-VIO-Online-Initialization-and-Calibration.pdf)
+#### 124. [FPGA SLAM] 2020-06-16-[AN FPGA ACCELERATION AND OPTIMIZATION TECHNIQUES FOR 2D LIDAR SLAM ALGORITHM](https://arxiv.org/pdf/2006.01050.pdf)
+#### 125. [Math] 2020-06-16-[Least Squares Optimization: from Theory to Practice](https://arxiv.org/pdf/2002.11051.pdf)
+#### 126. [VSLAM] 2020-06-16-[Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use](https://arxiv.org/pdf/2003.00754.pdf)
+#### 127. [Thesis] 2020-06-16-[Significance of Omnidirectional Fisheye Cameras for Feature-based Visual SLAM](http://raphaelchang.com/MEng_Thesis_Chang.pdf)
+#### 128. [Autodrive] 2020-07-07-[On the Design and Development of a Self-Driving Car for the SAE AutoDrive Challenge](http://scholar.google.com/scholar_url?url=https://tspace.library.utoronto.ca/bitstream/1807/100988/4/Burnett_Keenan_%2520_202006_MAS_thesis.pdf&hl=en&sa=X&d=6714439579150522306&scisig=AAGBfm3jfDtlg6kV_BcZDlnfOlgaSPKNnw&nossl=1&oi=scholaralrt&hist=3Pwx2kMAAAAJ:7315593912237841010:AAGBfm0pBBSURff_Req2TeJVte4_NbU3cg&amp=)
+#### 129. [Math] 2020-07-07-[Factor Graph-Based Smoothing Without Matrix Inversion for Highly Precise Localization](https://sci-hub.tw/10.1109/TCST.2020.3001387)
+#### 130. [VSLAM] 2020-07-07-[Robust and Autonomous Stereo Visual-Inertial Navigation for Non-Holonomic Mobile Robots](https://sci-hub.tw/10.1109/TVT.2020.3004163)
+#### 131. [GPS] 2020-07-07-[Time-Relative RTK-GNSS: GNSS Loop Closure in Pose Graph Optimization](https://sci-hub.tw/https://ieeexplore.ieee.org/document/9121671)
+#### 132. [Deep VSLAM] 2020-07-07-[https://sci-hub.tw/10.1109/TRO.2020.3001674](https://sci-hub.tw/10.1109/TRO.2020.3001674)
+#### 133. [VSLAM] 2020-07-07-[MIMC-VINS: A Versatile and Resilient Multi-IMU Multi-Camera Visual-Inertial Navigation System](https://arxiv.org/pdf/2006.15699.pdf)
+#### 134. [IMU] 2020-07-07-[Online IMU Intrinsic Calibration: Is It Necessary?](http://www.roboticsproceedings.org/rss16/p026.pdf)
+#### 135. [Event camera] 2020-07-07-[Event-Based Neuromorphic Vision for Autonomous Driving](https://sci-hub.tw/10.1109/MSP.2020.2985815)
+#### 136. [LSLAM] 2020-07-07-[Increased Accuracy For Fast Moving LiDARS:Correction of Distorted Point Clouds](https://www.tobiasrenzler.com/documents/lidar_distortion_correction.pdf)
+
+### 3D Reconstruction
+#### 1. [Automatically explore] 2020-01-14-[Plan3D: Viewpoint and Trajectory Optimization for Aerial Multi-View Stereo Reconstruction](https://sci-hub.tw/https://doi.org/10.1145/3233794)
+#### 2. [laser reconstruction] 2020-02-14-[Real-Time 3D Reconstruction of Thin Surface Based on Laser Line Scanner](https://www.researchgate.net/publication/338707435_Real-Time_3D_Reconstruction_of_Thin_Surface_Based_on_Laser_Line_Scanner) 
+#### 3. [Deep Reconstruction] 2020-04-03-[Atlas: End-to-End 3D Scene Reconstruction from Posed Images](https://arxiv.org/pdf/2003.10432.pdf) from magicleap
+#### 4. [User-guided] 2020-05-19-[User-guided 3D reconstruction using multi-view stereo](https://dl.acm.org/doi/fullHtml/10.1145/3384382.3384530)
+#### 5. [Learned based] 2020-07-07-[On the generalization of learning-based 3D reconstruction](https://arxiv.org/pdf/2006.15427.pdf)
+
+### Path Planning
+#### 1. [UAV] 2020-01-14-[Robust Real-time UAV Replanning Using Guided Gradient-based Optimization and Topological Paths](https://arxiv.org/pdf/1912.12644.pdf)Replanning method based on GTO.[code](https://github.com/HKUST-Aerial-Robotics/Fast-Planner)
+#### 2. [Auto exploration] 2020-01-14-[3D Exploration and Navigation with Optimal-RRT Planners for Ground Robots in Indoor Incidents](https://www.researchgate.net/publication/338367746_3D_Exploration_and_Navigation_with_Optimal-RRT_Planners_for_Ground_Robots_in_Indoor_Incidents)
+#### 3. [End-to-end navi] 2020-02-20-[BADGR: An Autonomous Self-Supervised Learning-Based Navigation System](https://arxiv.org/pdf/2002.05700.pdf) an end-to-end learning-based mobile robot navigation system. [code](https://sites.google.com/view/badgr)
+#### 4. [End-to-End] 2020-05-19-[Probabilistic End-to-End Vehicle Navigation in Complex Dynamic Environments with Multimodal Sensor Fusion](https://arxiv.org/pdf/2005.01935.pdf)
+#### 5. [Vision net] 2020-05-25-[VTGNet: A Vision-based Trajectory Generation Network for Autonomous Vehicles in Urban Environments](https://arxiv.org/pdf/2004.12591.pdf)
+#### 6. [Clutter Enviroment] 2020-05-27-[Navigation for Small Aerial Autonomous Vehicles in Cluttered Environment Architecture, Sensors, Algorithms, Applications](https://www.researchgate.net/publication/328760197_Machine_Learning_and_a_Small_Autonomous_Aerial_Vehicle_Part_1_Navigation_and_Supervised_Deep_Learning)
+
+
 ## SLAM 能力图 
 
 <img src="https://github.com/YiChenCityU/Recent_SLAM_Research/blob/master/SLAM%E8%83%BD%E5%8A%9B%E5%9B%BE.png" width ="300" height="550" />
-
-### ------------ ICRA 2019 重磅来袭 吐血整理关于SLAM部分 [下载链接](https://drive.google.com/open?id=1e-5pBpfkXBvMeeYzVjC4sv_LhCgN3RB8)----------
-#### 0031	Aided Inertial Navigation - Unified Feature Representations and Observability Analysis
-#### 0036	Learning Wheel Odometry and IMU Errors for Localization
-#### 0041	MH-iSAM2 - Multi-Hypothesis iSAM Using Bayes Tree and Hypo-Tree
-#### 0060	Deep Reinforcement Learning of Navigation in a Complex and Crowded Environment with a Limited Field of View
-#### 0078	Living with a Mobile Companion Robot in Your Own Apartment - Final Implementation and Results of a 20-Weeks Field Study
-#### 0095	Visual SLAM - Why Bundle Adjust
-#### 0118	Project AutoVision - Localization and 3D Scene Perception for an Autonomous Vehicle with a Multi-Camera System
-#### 0120	A Kalman Filter-Based Algorithm for Simultaneous Time Synchronization and Localization in UWB Network
-#### 0122	Pose Graph Optimization for Unsupervised Monocular Visual Odometry
-#### 0193	Learning Ad-Hoc Compact Representations from Salient Landmarks for Visual Place Recognition in Underwater Environments
-#### 0212	A Variational Observation Model of 3D Object for Probabilistic Semantic SLAM
-#### 0215	Velocity Constrained Trajectory Generation for a Collinear Mecanum Wheeled Robot
-#### 0239	Tightly Coupled 3D Lidar Inertial Odometry and Mapping
-#### 0251	Fast Stochastic Functional Path Planning in Occupancy Maps
-#### 0257	A Linear-Complexity EKF for Visual-Inertial Navigation with Loop Closures
-#### 0306	FMD Stereo SLAM - Fusing MVG and Direct Formulation towards Accurate and Fast Stereo SLAM
-#### 0317	Lidar Measurement Bias Estimation Via Return Waveform Modelling in a Context of 3D Mapping
-#### 0326	Rorg - Service Robot Software Management with Linux Containers
-#### 0336	Localization with Sliding Window Factor Graphs on Third-Party Maps for Automated Driving
-#### 0353	Sensor-Failure-Resilient Multi-IMU Visual-Inertial Navigation
-#### 0355	Enabling Identity-Aware Tracking Via Fusion of Visual and Inertial Feature
-#### 0362	A New Approach to Local Navigation for Autonomous Driving Vehicles Based on the Curvature Velocity Method
-#### 0371	LookUP - Vision-Only Real-Time Precise Underground Localisation for Autonomous Mining Vehicles
-#### 0378	Uncertainty Estimation for Projecting Lidar Points Onto Camera Images for Moving Platforms
-#### 0389	Efficient Integrity Monitoring for KF-Based Localization
-#### 0390	SweepNet - Wide-Baseline Omnidirectional Depth Estimation
-#### 0395	3D Surface Reconstruction Using a Two-Step Stereo Matching Method Assisted with Five Projected Patterns
-#### 0431	Road Detection through CRF based LiDAR-Camera Fusion
-#### 0434	Real-Time Model Based Path Planning for Wheeled Vehicles
-#### 0448	Improving Keypoint Matching Using a Landmark-Based Image Representation
-#### 0467	Adding Cues to Binary Feature Descriptors for Visual Place Recognition
-#### 0508	Fast and Robust Initialization for Visual-Inertial SLAM
-#### 0522	ScalableFusion - High-Resolution Mesh-Based Real-Time 3D Reconstruction
-#### 0549	High-Precision Localization Using Ground Texture
-#### 0552	Actively Improving Robot Navigation on Different Terrains Using Gaussian Process Mixture Models
-#### 0561	KO-Fusion - Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking
-#### 0589	Learning Scene Geometry for Visual Localization in Challenging Conditions
-#### 0595	CNN-SVO - Improving the Mapping in Semi-Direct Visual Odometry Using Single-Image Depth Prediction
-#### 0613	Learning Action Representations for Self-supervised Visual Exploration
-#### 0636	Robust Object-Based SLAM for High-Speed Autonomous Navigation
-#### 0658	A Scalable Framework For Real-Time Multi-Robot Multi-Human Collision Avoidance
-#### 0660	SuperDepth - Self-Supervised Super-Resolved Monocular Depth Estimation
-#### 0666	Safe and Complete Real-Time Planning and Exploration in Unknown Environments
-#### 0674	Visual-Inertial Navigation - A Concise Review
-#### 0697	Uncertainty-Aware Occupancy Map Prediction Using Generative Networks for Robot Navigation
-#### 0700	Illumination Robust Monocular Direct Visual Odometry for Outdoor Environment Mapping
-#### 0717	GEN-SLAM - Generative Modeling for Monocular Simultaneous Localization and Mapping
-#### 0782	A Comparison of CNN-Based and Hand-Crafted Keypoint Descriptors
-#### 0783	IN2LAMA - INertial Lidar Localisation and MApping
-#### 0798	Accurate Direct Visual-Laser Odometry with Explicit Occlusion Handling and Plane Detection
-#### 0860	Semantic Mapping for View-Invariant Relocalization
-#### 0862	Robotic Forceps without Position Sensors Using Visual SLAM
-#### 0867	Environment Driven Underwater Camera-IMU Calibration for Monocular Visual-Inertial SLAM
-#### 0897	Dense 3D Visual Mapping Via Semantic Simplification
-#### 0903	Redundant Perception and State Estimation for Reliable Autonomous Racing
-#### 0954	Semantic Mapping Extension for OpenStreetMap Applied to Indoor Robot Navigation
-#### 0968	Multirotor Dynamics Based Online Scale Estimation for Monocular SLAM
-#### 0970	UWBLiDAR Fusion for Cooperative Range-Only SLAM
-#### 0979	A Supervised Approach to Predicting Noise in Depth Images
-#### 0999	Dynamic Hilbert Maps - Real-Time Occupancy Predictions in Changing Environments
-#### 1008	Learning Monocular Visual Odometry through Geometry-Aware Curriculum Learning
-#### 1036	A Unified Framework for Mutual Improvement of SLAM and Semantic Segmentation
-#### 1045	Leveraging Structural Regularity of Atlanta World for Monocular SLAM
-#### 1072	Improving the Robustness of Visual-Inertial Extended Kalman Filtering
-#### 1073	ATLAS FaST - Fast and Simple Scheduled TDOA for Reliable Ultra-Wideband Localization
-#### 1086	Visual Appearance Analysis of Forest Scenes for Monocular SLAM
-#### 1090	Closed-Loop MPC with Dense Visual SLAM - Stability through Reactive Stepping
-#### 1092	Pedestrian Dominance Modeling for Socially-Aware Robot Navigation
-#### 1105	Energy-Aware Temporal Logic Motion Planning for Mobile Robots
-#### 1126	Real-Time Dense Mapping for Self-Driving Vehicles Using Fisheye Cameras
-#### 1129	RESLAM - A Real-Time Robust Edge-Based SLAM System
-#### 1143	Dense Surface Reconstruction from Monocular Vision and LiDAR
-#### 1147	Estimating the Localizability in Tunnel-like Environments using LiDAR and UWB
-#### 1173	Depth Completion with Deep Geometry and Context Guidance
-#### 1176	Learned Map Prediction for Enhanced Mobile Robot Exploration
-#### 1204	DeepFusion - Real-Time Dense 3D Reconstruction for Monocular SLAM Using Single-View Depth and Gradient Predictions
-#### 1211	Real Time Dense Depth Estimation by Fusing Stereo with Sparse Depth Measurements
-#### 1247	Towards Fully Dense Direct Filter-Based Monocular Visual-Inertial Odometry
-#### 1265	Adaptive Bingham Distribution Based Filter for SE(3) Estimation
-#### 1267	MID-Fusion - Octree-Based Object-Level Multi-Instance Dynamic SLAM
-#### 1278	Autonomous Exploration Reconstruction and Surveillance of 3D Environments Aided by Deep Learning
-#### 1322	Speeding up Iterative Closest Point Using Stochastic Gradient Descen
-#### 1324	Building a Winning Self-Driving Car in Six Months
-#### 1327	Obstacle-Aware Adaptive Informative Path Planning for UAV-Based Target Search
-#### 1340	OVPC Mesh - 3D Free-Space Representation for Local Ground VehicleNavigation
-#### 1358	Multi-Robot Informative Path Planning with Continuous Connectivity Constraints
-#### 1365	Look No Deeper - Recognizing Places from Opposing Viewpoints under Varying Scene Appearance Using Single-View Depth Estimation
-#### 1380	GANVO - Unsupervised Deep Monocular Visual Odometry and Depth Estimation with Generative Adversarial Networks
-#### 1381	Efficient Constellation-Based Map-Merging for Semantic SLAM
-#### 1383	Multimodal Semantic SLAM with Probabilistic Data Associatio
-#### 1422	Surfel-Based Dense RGB-D Reconstruction with Global and Local Consistency
-#### 1448	3D Keypoint Repeatability for Heterogeneous Multi-Robot SLAM
-#### 1458	Characterizing Visual Localization and Mapping Datasets
-#### 1549	A-SLAM - Human-In-The-Loop Augmented SLAM
-#### 1555	Dynamic Channel - A Planning Framework for Crowd Navigation
-#### 1560	2D LiDAR Map Prediction Via Estimating Motion Flow with GRU
-#### 1567	Efficient 2D-3D Matching for Multi-Camera Visual Localization
-#### 1593	Where Should We Place LiDARs on the Autonomous Vehicle - An Optimal Design Approach
-#### 1599	Efficient Trajectory Planning for High Speed Flight in Unknown Environments
-#### 1607	Visual-Odometric Localization and Mapping for Ground Vehicles Using SE(2)-XYZ Constraints
-#### 1636	Depth Generation Network - Estimating Real World Depth from Stereo and Depth Images
-#### 1688	Localizing Discriminative Visual Landmarks for Place Recognition
-#### 1697	ROVO - Robust Omnidirectional Visual Odometry for Wide-Baseline Wide-FOV Camera Systems
-#### 1751	Non-Parametric Error Modeling for Ultra-Wideband Localization Networks
-#### 1760	RCM-SLAM - Visual Localisation and Mapping under Remote Centre of Motion Constraints
-#### 1784	Multi-Camera Visual-Inertial Navigation with Online Intrinsic and Extrinsic Calibration
-#### 1808	CoLo - A Performance Evaluation System for Multi-Robot Cooperative Localization Algorithms
-#### 1827	Variational End-To-End Navigation and Localization
-#### 1870 SLAMBench 3.0: Systematic Automated Reproducible Evaluation of SLAM Systems for Robot Vision Challenges and Scene Understanding
-#### 1891	Real-Time Monocular Object-Model Aware Sparse SLAM
-#### 1937	Tightly-Coupled Aided Inertial Navigation with Point and Plane Features
-#### 1942	RaD-VIO - Rangefinder-aided Downward Visual-Inertial Odometry
-#### 1946	Beyond Point Clouds - Fisher Information Field for Active Visual Localization
-#### 1954	Deep Local Trajectory Replanning and Control for Robot Navigation
-#### 1977	FastDepth - Fast Monocular Depth Estimation on Embedded Systems
-#### 2006	Probabilistic Projective Association and Semantic Guided Relocalization for Dense Reconstruction
-#### 2009	Kinematic Constraints Based Bi-Directional RRT (KB-RRT) with Parameterized Trajectories for Robot Path Planning in Cluttered Environment
-#### 2044	MRS-VPR - A Multi-Resolution Sampling Based Visual Place Recognition Method
-#### 2045	Integrated UWB-Vision Approach for Autonomous Docking of UAVs in GPS-Denied Environments
-#### 2111	Keyframe-Based Direct Thermal Inertial Odometry
-#### 2139	Self-Supervised Sparse-To-Dense - Self-Supervised Depth Completion from LiDAR and Monocular Camera
-#### 2143	A Multi-Domain Feature Learning Method for Visual Place Recognition
-#### 2162	Real-Time Scalable Dense Surfel Mapping
-#### 2186	Global Vision-Based Reconstruction of Three-Dimensional Road Surfaces Using Adaptive Extended Kalman Filter
-#### 2207	An Autonomous Loop-Closure Approach for Simultaneous Exploration and Coverage of Unknown Infrastructure Using MAVs
-#### 2334	Probabilistic Appearance-Based Place Recognition Through Bag of Tracked Words
-#### 2335	Robust Pose-Graph SLAM Using Absolute Orientation Sensing
-#### 2354	Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks
-#### 2358	Sparse2Dense - From Direct Sparse Odometry to Dense 3D Reconstruction
-#### 2381	Local Descriptor for Robust Place Recognition Using LiDAR Intensity
-#### 2390	Decentralized Full Coverage of Unknown Areas by Multiple Robots with Limited Visibility Sensing
-#### 2394	Enhancing V-SLAM Keyframe Selection with an Efficient ConvNet for Semantic Analysis
-#### 2410	Loosely-Coupled Semi-Direct Monocular SLAM
-#### 2533	Unsupervised Learning of Monocular Depth and Ego-Motion Using Multiple Masks
-#### 2540	On-Line 3D Active Pose-Graph SLAM Based on Key Poses Using Graph Topology and Sub-Maps
-#### 2545	Low-Latency Visual SLAM with Appearance-Enhanced Local Map Building
-#### 2552	Experimental Comparison of Visual-Aided Odometry Methods for Rail Vehicles
-#### 2554	Iteratively Reweighted Midpoint Method for Fast Multiple View Triangulation
-#### 2559	Unified Motion-Based Calibration of Mobile Multi-Sensor Platforms with Time Delay Estimation
-#### 2643	Efficient Autonomous Exploration Planning of Large Scale 3D-Environments
-#### 2645	Deep Reinforcement Learning Robot for Search and Rescue Applications - Exploration in Unknown Cluttered Environments
-#### 2685	Integrated Mapping and Path Planning for Very Large-Scale Robotic (VLSR) Systems
-#### 2703	Geometric Relation Distribution for Place Recognition
-#### 2717	Communication-Efficient Planning and Mapping for Multi-Robot Exploration in Large Environments
-#### 2873	Multi-Process Fusion - Visual Place Recognition Using Multiple Image Processing Methods
-#### 2877	Geo-Supervised Visual Depth Prediction
-#### 2886	Effective Visual Place Recognition Using Multi-Sequence Maps
-#### 2894	Probabilistic Completeness of RRT for Geometric and Kinodynamic Planning with Forward Propagation
-#### 2897	On the Impact of Uncertainty for Path Planning
-#### 2901	Multi-Robot Motion Planning with Dynamics Via Coordinated Sampling-Based Expansion Guided by Multi-Agent Search
-#### 2911	Energy-Efficient Coverage Path Planning for General Terrain Surfaces
-#### 2943	VUNet - Dynamic Scene View Synthesis for Traversability Estimation Using an RGB Camera
-#### 2948	Robust Attitude Estimation Using an Adaptive Unscented Kalman Filter
-#### 2985	1-Day Learning 1-Year Localization - Long-Term LiDAR Localization Using Scan Context Image
-#### 2992	Robust Global Structure from Motion Pipeline with Parallax on Manifold Bundle Adjustment and Initialization
-#### 3117	Learning Scene Geometry for Visual Localization in Challenging Conditions
-#### 3118	Geo-Supervised Visual Depth Prediction
-#### 3130	Search-Based 3D Planning and Trajectory Optimization for Safe Micro Aerial Vehicle Flight under Sensor Visibility Constraints
-### ------------ ICRA 2019 终止线 ----------
-
-### SLAM
-
-#### 89. 2019-06-28-[Monocular Visual Odometry Initialization with Points and Line Segments](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8728034)
-#### 88. 2019-06-28-[DS-VIO: Robust and Efficient Stereo Visual Inertial Odometry based on Dual Stage EKF](https://arxiv.org/pdf/1905.00684.pdf)
-#### 87. 2019-06-19-[Edge-Direct Visual Odometry](https://arxiv.org/pdf/1906.04838.pdf)CMU 边缘直接法VO
-#### 86. 2019-06-13-[An Automatic Key-Frame Selection Method for Monocular Visual Odometry of Ground Vehicle](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8715357)
-#### 85. 2019-06-13-[ARM-VO: an efficient monocular visual odometry for ground vehicles on ARM CPUs](https://link.springer.com/article/10.1007/s00138-019-01037-5) ARM优化版本VO
-#### 84. 2019-06-13-[Large-Scale Outdoor SLAM Based on 2D Lidar](https://www.researchgate.net/publication/333521486_Large-Scale_Outdoor_SLAM_Based_on_2D_Lidar)
-#### 83. 2019-06-13-[Vision-Based Autonomous UAV Navigation and Landing for Urban Search and Rescue](https://arxiv.org/pdf/1906.01304.pdf)
-#### 82. 2019-06-13-[Partial Computing Offloading Assisted Cloud Point Registration in Multi-robot SLAM](https://arxiv.org/pdf/1905.12973.pdf)降低多机SLAM计算量
-#### 81. 2019-06-13-[Stereo Visual Odometry Based on Motion Decoupling and Special Feature Screening for Navigation of Autonomous Vehicles](http://sci-hub.tw/https://ieeexplore.ieee.org/document/8718624)远点近点分开利用
-#### 80. 2019-06-13-[Extending Monocular Visual Odometry to Stereo Camera System by Scale Optimization](https://arxiv.org/pdf/1905.12723.pdf) 计算量小的伪双目
-#### 79. 2019-06-10-[Extrinsic calibration of a single-point laser rangefinder and single camera](https://link.springer.com/article/10.1007/s11082-019-1907-8) 连同78,都是2D激光传感器与视觉传感器外参标定
-#### 78. 2019-06-10-[A Simple Calibration Procedure for A 2D LiDAR with Respect to A Camera](https://ieeexplore.ieee.org/abstract/document/8710299)
-#### 77. 2019-06-10-[HeteroFusion: Dense Scene Reconstruction Integrating Multi-sensors](https://orca.cf.ac.uk/122866/1/HeteroFusion-Final.pdf) 融合多种传感器的三维重建
-#### 76. 2019-06-05-[A Simultaneous Localization and Mapping (SLAM) Framework for 2.5D Map Building Based on Low-Cost LiDAR and Vision Fusion](https://www.researchgate.net/publication/333315015_A_Simultaneous_Localization_and_Mapping_SLAM_Framework_for_25D_Map_Building_Based_on_Low-Cost_LiDAR_and_Vision_Fusion) 激光与视觉融合SLAM
-#### 75. 2019-06-05-[eSLAM: An Energy-Efficient Accelerator for Real-Time ORB-SLAM on FPGA Platform](http://sci-hub.tw/10.1145/3316781.3317820)
-#### 74. 2019-05-28-[Robust simultaneous localization and mapping in low-light environment](https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1895) 提取两种特征点解决光照问题
-#### 73. 2019-05-28-[An Extensive Approach to Features Detection and Description for 2D Range Data using Active B-splines](https://ieeexplore.ieee.org/abstract/document/8716503)
-#### 72. 2019-05-28-[Low-latency Visual SLAM with Appearance-Enhanced Local Map Building](https://arxiv.org/pdf/1905.07797.pdf)
-#### 71. 2019-05-28-[Characterizing SLAM Benchmarks and Methods for the Robust Perception Age](https://arxiv.org/pdf/1905.07808.pdf)
-#### 70. 2019-05-24-[RGBD-Inertial Trajectory Estimation and Mapping for Ground Robots](https://www.researchgate.net/publication/333125503_RGBD-Inertial_Trajectory_Estimation_and_Mapping_for_Ground_Robots)RGBD+IMU,基于VINS_MONO
-#### 69. 2019-05-24-[A Novel Approach for Lidar-Based Robot Localization in a Scale-Drifted Map Constructed Using Monocular SLAM](https://www.mdpi.com/1424-8220/19/10/2230) 基于单目产生的有尺度漂移的地图,用激光定位,感觉没多大用
-#### 68. 2019-05-24-[Visual Inertial Odometry At the Edge: A Hardware-Software Co-design Approach for Ultra-low Latency and Power](https://ieeexplore.ieee.org/abstract/document/8714921) 低功耗 VINS
-#### 67. 2019-05-24-[Explorations and Lessons Learned in Building an Autonomous FormulaSAEa Car from Simulations](https://arxiv.org/pdf/1905.05940.pdf)学生方程式赛车学习
-#### 66. 2019-05-24-[Low-cost IMU Data Denoising using Savitzky-Golay Filters](https://ieeexplore.ieee.org/abstract/document/8713728)IMU数据降噪
-#### 65. 2019-05-20-[AMZ Driverless: The Full Autonomous Racing System](https://arxiv.org/pdf/1905.05150.pdf) ETH赛车
-#### 64. 2019-05-20-[ROS-based localization of a race vehicle at high-speed using LIDAR](https://www.e3s-conferences.org/articles/e3sconf/pdf/2019/21/e3sconf_icpeme2018_04002.pdf)TUM赛车
-#### 63. 2019-05-20-[An Open Source and Open Hardware Deep Learning-powered Visual Navigation Engine for Autonomous Nano-UAVs](https://arxiv.org/pdf/1905.04166.pdf)ETH最小无人机自动导航
-#### 62. 2019-05-20-[DeepICP: An End-to-End Deep Neural Network for 3D Point Cloud Registration](https://arxiv.org/pdf/1905.04153.pdf)百度无人车团队DeepICP
-#### 61. 2019-05-20-[3D Keypoint Repeatability for Heterogeneous Multi-Robot SLAM](http://act.usc.edu/publications/Boroson_ICRA2019.pdf)南加州大学基于3D点云的特征点
-#### 60. 2019-05-14-[Monocular Semidirect Visual Odometry for Large-scale Outdoor Localization](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8703146)
-#### 59. 2019-05-14-[CREAK descriptor evaluation for visual odometry](http://sci-hub.tw/https://ieeexplore.ieee.org/document/8704807) CREAK 描述子测试
-#### 58. 2019-05-05-[Humanoid Robot Dense RGB-D SLAM for Embedded Devices*](https://www.researchgate.net/profile/Stylianos_Piperakis3/publication/332686387_Humanoid_Robot_Dense_RGB-D_SLAM_for_Embedded_Devices/links/5cc341654585156cd7b4518e/Humanoid-Robot-Dense-RGB-D-SLAM-for-Embedded-Devices.pdf) 使用RGBD+IMU+Encoder做Nao机器人状态估计
-#### 57. 2019-04-29-[Structure Aware SLAM using Quadrics and Planes](https://www.researchgate.net/profile/Yasir_Latif/publication/324745171_Towards_Semantic_SLAM_Points_Planes_and_Objects/links/5caaa871a6fdcca26d065630/Towards-Semantic-SLAM-Points-Planes-and-Objects.pdf)
-#### 56. 2019-04-29-[VITAMIN-E: VIsual Tracking And MappINg with Extremely Dense Feature Points](https://arxiv.org/pdf/1904.10324.pdf) 很鲁棒的单目三维重建
-#### 55. 2019-04-26-[Are State-of-the-art Visual Place Recognition Techniques any Good for Aerial Robotics?](https://arxiv.org/pdf/1904.07967.pdf) 关于回环检测的综述
-#### 54. 2019-04-23-[An Improved Hector SLAM Algorithm based on Information Fusion for Mobile Robot](https://ieeexplore.ieee.org/abstract/document/8691198)
-#### 53. 2019-04-23-[Robust RGB-D Visual Odometry Based on the Line Intersection Structure Feature in Low-Textured Scenes](https://ieeexplore.ieee.org/abstract/document/8691213)
-#### 52. 2019-04-23-[Object Recognition and Simultaneous Indoor Localization Algorithm with Stereo Camera](https://ieeexplore.ieee.org/abstract/document/8691211)
-#### 51. 2019-04-23-[Learning Whole-Image Descriptors for Real-time Loop Detection and Kidnap Recovery under Large Viewpoint Difference](https://arxiv.org/pdf/1904.06962.pdf) 港科大弱监督(NetVLAD)下的重定位恢复
-#### 50. 2019-04-23-[Visual-Inertial Mapping with Non-Linear Factor Recovery](https://arxiv.org/pdf/1904.06504.pdf)
-#### 49. 2019-04-23-[Direct Sparse Mapping](https://arxiv.org/pdf/1904.06577.pdf) 带有回环检测的稀疏直接法
-#### 48. 2019-04-23-[Gyroscope-aided Relative Pose Estimation for Rolling Shutter Cameras](https://arxiv.org/pdf/1904.06770.pdf) 使用IMU解决卷帘快门图像问题
-#### 47. 2019-04-17-[Adaptive SLAM with synthetic stereo dataset generation for real-time dense 3D reconstruction](https://hal.archives-ouvertes.fr/hal-02086843/document)提出在直线行走时降低图像帧率,节省计算资源以及减少误差
-#### 46. 2019-04-17-[Robust Legged Robot State Estimation Using Factor Graph Optimization](https://arxiv.org/pdf/1904.03048.pdf) Anymal 四足机器人定位算法
-#### 45. 2019-04-11-[Stereo camera visual odometry for moving urban environments](https://content.iospress.com/articles/integrated-computer-aided-engineering/ica190598) 
-#### 44. 2019-04-11-[Online IMU Self-Calibration for Visual-Inertial Systems](https://www.mdpi.com/1424-8220/19/7/1624)
-#### 43. 2019-04-02-[KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/dyson-robotics-lab/chouseago_etal_icra2019.pdf)Dyson 和 Imprial college 研发的RGBD融合底盘dense slam
-#### 42. 2019-04-02-[SlamCraft: Dense Planar RGB Monocular SLAM](https://www.researchgate.net/publication/331832804_SlamCraft_Dense_Planar_RGB_Monocular_SLAM)
-#### 41. 2019-03-29-[Learning 3D Semantic Reconstruction on Octrees](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/332863/1/Wang_Xiaojuan.pdf)ETH wang xiaojuan三维语义重建硕士论文
-#### 40. 2019-03-29-[An Efficient Schmidt-EKF for 3D Visual-Inertial SLAM](https://arxiv.org/pdf/1903.08636.pdf)
-#### 39. 2019-03-29-[Levelling the Playing Field: A Comprehensive Comparison of Visual Place Recognition Approaches under Changing Conditions](https://arxiv.org/pdf/1903.09107.pdf)关于回环检测的综述
-#### 38. 2019-03-29-[Wheelchair robot navigation in different weather conditions using deep learning and evolved neural controller](https://www.emeraldinsight.com/doi/abs/10.1108/IR-08-2018-0176)
-#### 37. 2019-03-29-[Pragma-Oriented Parallelization of the Direct Sparse Odometry SLAM Algorithm](https://ieeexplore.ieee.org/abstract/document/8671561)
-#### 36. 2019-03-25-[FMD Stereo SLAM: Fusing MVG and Direct Formulation Towards Accurate and Fast Stereo SLAM](https://www.researchgate.net/publication/281217090_Stereo_Parallel_Tracking_and_Mapping_for_robot_localization) 
-#### 35. 2019-03-21-[Spatiotemporal Decoupling Based LiDARCamera Calibration under Arbitrary Configurations](https://arxiv.org/pdf/1903.06141.pdf)
-#### 34. 2019-03-21-[An Accurate Localization Scheme for Mobile Robots Using Optical Flow in Dynamic Environments](https://sci-hub.tw/https://ieeexplore.ieee.org/abstract/document/8664893/)
-#### 33. 2019-03-16-[2-Entity RANSAC for robust visual localization in changing environment](https://arxiv.org/pdf/1903.03967.pdf)
-#### 32. 2019-03-16-[A Unified Formulation for Visual Odometry](https://arxiv.org/pdf/1903.04253.pdf) 综合直接法和间接法
-#### 31. 2019-03-13-[Nonparametric Statistical and Clustering Based RGB-D Dense Visual Odometry in a Dynamic Environment](https://sci-hub.tw/https://link.springer.com/article/10.1007/s13319-019-0220-4)多帧残差模型处理动态物体
-#### 30. 2019-03-13-[3D Reconstruction and Texture Optimization Using a Sparse Set of RGB-D Cameras](https://sci-hub.tw/https://ieeexplore.ieee.org/abstract/document/8658571/)
-#### 29. 2019-03-13-[EGO-SLAM: A Robust Monocular SLAM for Egocentric Videos](https://www.cse.iitd.ac.in/~chetan/papers/wacv19-egoslam.pdf)
-#### 28. 2019-03-11-[Real-Time Visual Odometry Covariance Estimation or Unmanned Air Vehicle Navigation](https://arc.aiaa.org/doi/pdfplus/10.2514/1.G004000)
-#### 27. 2019-03-11-[Ground Plane based Absolute Scale Estimation for Monocular Visual Odometry](https://arxiv.org/pdf/1903.00912.pdf)单目估计尺度
-#### 26. 2019-03-11-[Incremental Visual-Inertial 3D Mesh Generation with Structural Regularities](https://www.mit.edu/~arosinol/research/struct3dmesh.html)出自MIT，在VIO中根据三角剖分加入结构化特征
-#### 25. 2019-03-08-[ROVO: Robust Omnidirectional Visual Odometry for Wide-baseline Wide-FOV Camera Systems](https://arxiv.org/pdf/1902.11154.pdf)多目鱼眼SLAM
-#### 24. 2019-03-08-[Robust RGB-D Odometry under Depth Uncertainty for Structured Environments](https://search.proquest.com/openview/d9b6a8efb6fd8075cfe7aeed663085c7/1?pq-origsite=gscholar&cbl=2026366&diss=y) 博士论文处理RGBD深度误差
-#### 23. 2019-03-08-[Stereo Visual Inertial LiDAR Simultaneous Localization and Mapping](https://arxiv.org/pdf/1902.10741.pdf)激光在山洞容易失效，双目可以增强某些场景
-#### 22. 2019-03-08-[Double-Layer Cubature Kalman Filter for Nonlinear Estimation](https://sci-hub.tw/https://www.mdpi.com/1424-8220/19/5/986)
-#### 21. 2019-03-08-[A Vertex-to-Edge Weighted Closed-Form Method for Dense RGB-D Indoor SLAM ](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8649628) 
-#### 20. 2019-02-28-[Vision Sensor Aided Navigation for Ground Vehicle Applications](https://sci-hub.tw/https://prism.ucalgary.ca/handle/1880/109478) Liu Zhenbo 博士毕业论文讲的很仔细
-#### 19. 2019-02-28-[GSLAM: A General SLAM Framework and Benchmark](https://arxiv.org/pdf/1902.07995.pdf) 兼容多种框架的框架。。。
-#### 18. 2019-02-26-[A lightweight and scalable visual‑inertial motion capture system using fducial markers](https://sci-hub.tw/10.1007/s10514-019-09834-7)二维码加IMU
-#### 17. 2019-02-21-[Robust 3D Indoor Map Building via RGB-D SLAM with Adaptive IMU Fusion on Robot](https://www.mdpi.com/1424-8220/16/10/1589/pdf) 简单直接的融合方式
-#### 16. 2019-02-18-[UcoSLAM: Simultaneous Localization and Mapping by Fusion of KeyPoints and Squared Planar Markers](https://arxiv.org/pdf/1902.03729.pdf)融合视觉与二维码标签SLAM，[代码](https://sourceforge.net/projects/ucoslam/)
-#### 15. 2019-02-14-[Visual SLAM: Why Bundle Adjust?](https://arxiv.org/pdf/1902.03747.pdf)Ian Reid的改进版BA
-#### 14. 2019-02-14-[A real-time visual-inertial mapping and localization method by fusing unstable GPS](https://ieeexplore.ieee.org/abstract/document/8630513) 根据GPS信号可信度调整优化方法
-#### 13. 2019-02-14-[Comparison and Analysis of Feature Method and Direct Method in Visual SLAM Technology for Social Robots](https://ieeexplore.ieee.org/abstract/document/8630714)对比直接法与特征点法
-#### 12. 2019-01-30-[Multi-objective Mapping and Path Planning using Visual SLAM and Object Detection](https://uwspace.uwaterloo.ca/bitstream/handle/10012/14386/Woo_Ami.pdf?sequence=3&isAllowed=y) 一篇硕士论文
-#### 11. 2019-01-30-[Extrinsic Calibration of Lidar and Camera with Polygon](https://ram-lab.com/papers/2018/liao_robio2018.pdf) 利用已知多边形板子获得激光与视觉传感器外参，出自港科大刘明老师
-#### 10. 2019-01-30-[Robust Photogeometric Localization over Time for Map-Centric Loop Closure](https://arxiv.org/pdf/1901.07660.pdf)解决map-centric slam回环问题
-#### 9. 2019-01-25-[A Novel Method for Extrinsic Calibration of Multiple RGB-D Cameras Using Descriptor-Based Patterns](https://www.mdpi.com/1424-8220/19/2/349/htm) 多个RGBD相机外参标定
-#### 8. 2019-01-25-[SLAM of Robot based on the Fusion of Vision and LIDAR](https://sci-hub.tw/10.1109/cbs.2018.8612212)RGBD 与lidar 融合，好像只是处理逻辑关系判断，没有深度融合
-#### 7. 2019-01-25-[ADAPTIVE FILTERING FOR VISION-AIDED INERTIAL NAVIGATION](https://smartech.gatech.edu/bitstream/handle/1853/60806/LEE-DISSERTATION-2018.pdf?sequence=1&isAllowed=y) 佐治亚理工博士论文，关于自适应卡尔曼滤波
-#### 6. 2019-01-25-[Loosely-Coupled Semi-Direct Monocular SLAM](https://arxiv.org/pdf/1807.10073.pdf) Javier Civera 直接法和特征法融合，也是我现在工作比较感兴趣的一个方向
-#### 5. 2019-01-25-[Visual-Inertial SLAM Initialization: A General Linear Formulation and a Gravity-Observing Non-Linear Optimization](https://sci-hub.tw/10.1109/ismar.2018.00027) Javier Civera 关于视觉惯导初始化问题的研究
-#### 4. 2019-01-11-[SDVL: Efficient and Accurate Semi-Direct Visual Localization](https://www.researchgate.net/publication/330379725_SDVL_Efficient_and_Accurate_Semi-Direct_Visual_Localization) 直接法与特征点法混合
-#### 3. 2019-01-11-[A General Optimization-based Framework for Local Odometry Estimation with Multiple Sensors](https://arxiv.org/pdf/1901.03638.pdf) 双目VINS
-#### 2. 2019-01-11-[A General Optimization-based Framework for Global Pose Estimation with Multiple Sensors](https://arxiv.org/pdf/1901.03642.pdf) 港科大多传感器融合
-#### 1. 2019-01-09-[Factor Graphs for Flexible Inference in Robotics and Vision](https://smartech.gatech.edu/handle/1853/60646) Dellaert, Frank视频详解因子图，他也是牛逼的SKYDIO 的开发者之一
-
-### Deep SLAM
-#### 22. 2019-05-09-[EM-Fusion: Dynamic Object-Level SLAM with Probabilistic Data Association](https://arxiv.org/pdf/1904.11781.pdf)处理动态物体三维重建
-#### 21. 2019-05-09[GN-Net: The Gauss-Newton Loss for Deep Direct SLAM](https://arxiv.org/pdf/1904.11932.pdf)Daniel Cremers 所作,在帧间tracking时replace the image I with a feature map computed by a deep neural network.
-#### 20. 2019-04-26-[Deep Sensor Fusion between 2D Laser Scanner and IMU for Mobile Robot Localization](https://ieeexplore.ieee.org/abstract/document/8689068)
-#### 19. 2019-04-26-[LO-Net: Deep Real-time Lidar Odometry](https://arxiv.org/pdf/1904.08242.pdf)
-#### 18. 2019-04-23-[AI-IMU Dead-Reckoning](https://arxiv.org/pdf/1904.06064.pdf)只利用IMU做航迹推算,使用了卡尔曼滤波和神经网络
-#### 17. 2019-04-23-[Localizing Discriminative Visual Landmarks for Place Recognition](https://arxiv.org/pdf/1904.06635.pdf)回环检测
-#### 16. 2019-04-23-[Recurrent Neural Network for (Un-)supervised Learning of Monocular Video Visual Odometry and Depth](https://arxiv.org/pdf/1904.07087.pdf) 
-#### 15. 2019-04-19-[Semantic Nearest Neighbor Fields for Monocular Edge Visual-Odometry](https://arxiv.org/pdf/1904.00738.pdf)带有语义信息的几何边融入到VO中
-#### 14. 2019-04-17-[VISUAL LOCALIZATION USING SPARSE SEMANTIC 3D MAP](https://arxiv.org/pdf/1904.03803.pdf)
-#### 13. 2019-04-17-[Discovering and Leveraging Deep Multimodal Structure for Reliable Robot Perception and Localization](https://www.researchgate.net/profile/Abhinav_Valada/publication/331247138_Discovering_and_leveraging_deep_multimodal_structure_for_reliable_robot_perception_and_localization/links/5c7d5679299bf1268d3903d5/Discovering-and-leveraging-deep-multimodal-structure-for-reliable-robot-perception-and-localization.pdf)  Wolfram Burgard 学生博士论文,主要讲述分割网络以及在SLAM中的应用
-#### 12. 2019-04-11-[Beyond Tracking:Selecting Memory and Refining Poses for Deep Visual Odometry](https://arxiv.org/pdf/1904.01892.pdf) 商汤北大合作
-#### 11. 2019-04-02-[Unsupervised Learning of Accurate Camera Pose and Depth From Video Sequences With Kalman Filter](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8666111) 
-#### 10. 2019-03-25-[Pose Graph Optimization for Unsupervised Monocular Visual Odometry](https://arxiv.org/pdf/1903.06315.pdf)
-#### 9. 2019-03-16-[Sparse Representations for Object and Ego-motion Estimation in Dynamic Scenes](https://arxiv.org/pdf/1903.03731.pdf)
-#### 8. 2019-03-08-[DeepLO: Geometry-Aware Deep LiDAR Odometry](https://arxiv.org/pdf/1902.10562.pdf)基于深度学习的三维激光SLAM
-#### 7. 2019-03-08-[A Generative Map for Image-based Camera Localization](https://arxiv.org/pdf/1902.11124.pdf)
-#### 6. 2019-03-08-[GCNv2: Efficient Correspondence Prediction for Real-Time SLAM](https://arxiv.org/pdf/1902.11046.pdf) 网络生成ORB特征点，融合ORBSLAM里面去。[code](https://github.com/jiexiong2016/GCNv2_SLAM)
-#### 5. 2019-02-15-[Semantic and 3D Understanding of a Scene for Robot Perception](https://sci-hub.tw/http://search.proquest.com/openview/3a5804693015d4d0b42f1e4089a02267/1?pq-origsite=gscholar&cbl=18750&diss=y) 硕士论文
-#### 4. 2019-02-14-[VUNet: Dynamic Scene View Synthesis for Traversability Estimation using an RGB Camera](https://ieeexplore.ieee.org/document/8624332)估计机器人未来可通行区域
-#### 3. 2019-02-13-[GEN-SLAM: Generative Modeling for Monocular Simultaneous Localization and Mapping](https://arxiv.org/pdf/1902.02086.pdf)
-#### 2. 2019-01-25-[Towards Building the Semantic Map from a Monocular Camera with a Multi-task Network](https://arxiv.org/pdf/1901.05807.pdf) 中山大学通过多任务CNN生成单目深度图与并分割，重建出有语义信息的地图
-#### 1. 2019-01-22-[DF-SLAM: A Deep-Learning Enhanced Visual SLAM System based on Deep Local Features](https://arxiv.org/pdf/1901.07223.pdf)
-
-### 3D Reconstruction
-#### 8. 2019-06-13-[DeepFusion: Real-Time Dense 3D Reconstruction for Monocular SLAM using Single-View Depth and Gradient Predictions](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/dyson-robotics-lab/tlaidlow_etal_icra2019.pdf)
-#### 7. 2019-05-14-[ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals](https://arxiv.org/pdf/1905.02082.pdf) 
-#### 6. 2019-04-02-[TAPA-MVS: Textureless-Aware PAtchMatch Multi-View Stereo](https://arxiv.org/pdf/1903.10929.pdf)
-#### 5. 2019-03-25-[Robust and affordable localization and mapping for 3D reconstruction. Application to architecture and construction](http://uvadoc.uva.es/bitstream/10324/35078/1/Tesis1482-190314.pdf)
-#### 4. 2019-02-18-[Improving 3D reconstruction via RGB-D camera registration and shading-based surface refinement]南阳理工邓腾博士论文
-#### 3. 2019-02-13-[Comparative analysis of properties of LiDAR-based point clouds versus camerabased point clouds for 3D reconstruction using SLAM algorithms](http://scholar.google.com/scholar_url?url=https://www.doria.fi/bitstream/handle/10024/167410/bistrom_benjamin.pdf%3Fsequence%3D2&hl=de&sa=X&d=12452230042616813822&scisig=AAGBfm38puu_H5N8Tp62YkqQwuvZUVNXOw&nossl=1&oi=scholaralrt&hist=3Pwx2kMAAAAJ:13453396895897446987:AAGBfm2VmZLsOGwX0LAQ1scLkl9E22zpBQ)激光点云与RGBD点云对比
-#### 2. 2019-01-12-[Real-time Monocular Dense Mapping of Small Scenes with ORB Features](https://sci-hub.tw/https://ieeexplore.ieee.org/document/8610747) 单目ORB SLAM重建 
-#### 1. 2019-01-12-[NRMVS: Non-Rigid Multi-View Stereo](https://arxiv.org/pdf/1901.03910.pdf) 根据不同视角RGB图像对变形物体三维重建
-
-### Auto driving
-#### 10. 2019-05-14-[Trajectory Optimization of LiDAR SLAM Based on Local Pose Graph](http://sci-hub.tw/10.1007/978-981-13-7751-8_36) 优于LOAM的3D laser SLAM 
-#### 9. 2019-05-09-[Automatic extrinsic calibration between a camera and a 3D Lidar using 3D point and plane correspondences](https://arxiv.org/pdf/1904.12433.pdf) 标定相机与三维激光雷达
-#### 8. 2019-05-09-[A Novel Dual-Lidar Calibration Algorithm Using Planar Surfaces](https://arxiv.org/pdf/1904.12116.pdf) 标定双激光雷达
-#### 7. 2019-05-09-[DeLiO: Decoupled LiDAR Odometry](https://arxiv.org/pdf/1904.12667.pdf) 把旋转和平移分开求解
-#### 6. 2019-04-23-[Tightly Coupled 3D Lidar Inertial Odometry and Mapping](https://arxiv.org/pdf/1904.06993.pdf)港科大lidar融合IMU建图
-#### 5. 2019-03-13-[Lidar-Monocular Visual Odometry with Genetic Algorithm for Parameter Optimization](https://arxiv.org/pdf/1903.02046.pdf)在线实时优化参数
-#### 4. 2019-03-13-[An Interactive LiDAR to Camera Calibration](https://arxiv.org/pdf/1903.02122.pdf) 雷达相机外参标定
-#### 3. 2019-03-13-[A Fuzzy-Innovation-Based Adaptive Kalman Filter for Enhanced Vehicle Positioning in Dense Urban Environments](file:///home/eason/Downloads/sensors-19-01142-v2.pdf)
-#### 2. 2019-01-25-[Sensor fusion for localization of automated vehicles](https://d-nb.info/1173898506/34) 德国Bonn大学自动驾驶多传感器融合博士论文
-#### 1. 2019-01-24-[Self-Driving Cars: A Survey](https://arxiv.org/pdf/1901.04407.pdf)
-
-### Path Planning 
-#### 12. 2019-04-29-[Continuous Occupancy Map Fusion with Fast Bayesian Hilbert Maps](https://www.researchgate.net/profile/Weiming_Zhi/publication/332550322_Continuous_Occupancy_Map_Fusion_with_Fast_Bayesian_Hilbert_Maps/links/5cbc7fc1299bf12097765677/Continuous-Occupancy-Map-Fusion-with-Fast-Bayesian-Hilbert-Maps.pdf)
-#### 11. 2019-04-26-[Deep Local Trajectory Replanning and Control for Robot Navigation](http://iliad.stanford.edu/pdfs/publications/pokle2019deep.pdf)
-#### 10. 2019-04-23-[A new optimization-driven path planning method with probabilistic completeness for wheeled mobile robots](https://journals.sagepub.com/doi/full/10.1177/0020294019836127)
-#### 9. 2019-04-19-[Confidence random tree-based algorithm for mobile robot path planning considering the path length and safety](http://scholar.google.com.hk/scholar_url?url=https://journals.sagepub.com/doi/pdf/10.1177/1729881419838179&hl=zh-CN&sa=X&d=10415875195647299755&scisig=AAGBfm2HyeooIJxniSvIoXqUnJVBbOgqrg&nossl=1&oi=scholaralrt&hist=3Pwx2kMAAAAJ:13322782094633563195:AAGBfm3BsU2dft4hdsGEGWT6jrVBOBGCUA)
-#### 8. 2019-04-19-[Safe, Aggressive Quadrotor Flight via Reachability-based Trajectory Design](https://arxiv.org/pdf/1904.05728.pdf)更激进且安全的路径规划
-#### 7. 2019-04-15-[Online Trajectory Generation of a MAV for Chasing a Moving Target in 3D Dense Environments](https://arxiv.org/pdf/1904.03421.pdf)
-#### 6. 2019-03-08-[Autonomous Robotic Exploration by Incremental Road Map Construction](http://eeyxsun.people.ust.hk/docs/TASE2019_autonomous.pdf)港中文港科大合作出品
-#### 5. 2019-02-18-[Efficient Autonomous Exploration Planning of Large Scale 3D-Environments](https://www.ida.liu.se/divisions/aiics/publications/RAL-2019-Efficient-Autonomous-Exploration.pdf). Frontier Exploration planning (FEP) 与 Receding Horizon Next-Best-View planning (RH-NBVP)方法融合做自主探索
-#### 4. 2019-02-15-[Motion Planning for Micro Aerial Vehicles](https://sci-hub.tw/http://search.proquest.com/openview/3ddcfedc312ef40732797bfbc416ed59/1?pq-origsite=gscholar&cbl=18750&diss=y)宾大liu sikang博士论文，导师Kumar
-#### 3. 2019-02-14-[A Novel GRU-RNN Network Model for Dynamic Path Planning of Mobile Robot](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8625490) 全名Gated Recurrent Unit-Recurrent Neural Network (GRU-RNN) 
-#### 2. 2019-02-13-[Improving the Hybrid A* method for a non-holonomic wheeled robot](https://journals.sagepub.com/doi/full/10.1177/1729881419826857)增强混合A星算法
-#### 1. 2019-01-25-[Planning Algorithms for Multi-Robot Active Perception](http://scholar.google.com/scholar_url?url=https://ses.library.usyd.edu.au/bitstream/2123/19781/3/Graeme%2520Best%2520thesis.pdf&hl=zh-CN&sa=X&d=8591620865467554452&scisig=AAGBfm3-S44J8_MVtxhXZOgRqUDfvDig7g&nossl=1&oi=scholaralrt&hist=3Pwx2kMAAAAJ:7683124594916984709:AAGBfm07xRT6Xkv3-NQLydsk2iShtnUYcA) 悉尼大学多机器人主动感知路径规划
-
-### Others.
-
-#### 9. 2019-04-29-[MapperBot / iSCAN: Open-Source Integrated Robotic Platform and Algorithm for 2D Mapping](https://www.researchgate.net/profile/Akram_Al-Hourani/publication/332413257_MapperBot_iSCAN_Open-Source_Integrated_Robotic_Platform_and_Algorithm_for_2D_Mapping/links/5cb3fc5a4585156cd7992888/MapperBot-iSCAN-Open-Source-Integrated-Robotic-Platform-and-Algorithm-for-2D-Mapping.pdf)
-#### 8. 2019-04-29-[Contact-Aided Invariant Extended Kalman Filtering for Robot State Estimation*](https://arxiv.org/pdf/1904.09251.pdf)
-#### 7. 2019-04-19-[An Orthogonal Weighted Occupancy Likelihood Map with IMU-Aided Laser Scan Matching for 2D Indoor Mapping](https://www.mdpi.com/1424-8220/19/7/1742/pdf)
-#### 6. 2019-03-25-[Distributed Kalman-filtering: Distributed optimization viewpoint](https://arxiv.org/pdf/1903.07807.pdf)
-#### 5. 2018-03-08-[UCSD ECE276A: Sensing & Estimation in Robotics (Winter 2019)](https://natanaso.github.io/ece276a/schedule.html) UC 圣地亚哥大学机器人感知运动估计课程
-#### 4. 2018-02-25-[Robust Harris Detector Corresponding and Calculates the Projection Error Using the Modification of the Weighting Function](http://www.ijmlc.org/vol9/766-M025.pdf)多层权重函数增强本质矩阵计算准确度
-#### 3. 2019-02-25-[MC2SLAM: Real-Time Inertial Lidar Odometry Using Two-Scan Motion Compensation](https://sci-hub.tw/10.1007/978-3-030-12939-2_5) 激光IMU紧耦合方案，声称KITTI数据集top5，且放出了数据集。
-#### 2. 2019-02-18-[GPS/LiDAR Sensor Fusion Integrity: A Top-Down Approach](http://gracegao.ae.illinois.edu/publications/journal/2018_Navigation_GPSLidar%20integrity_Ashwin%20Kanhere.pdf) GPS 激光融合
-#### 1. 2019-01-25-[Ultra-wideband-based Navigation for Unmanned Aerial Vehicles](http://scholar.google.com.hk/scholar_url?url=https://dr.ntu.edu.sg/bitstream/handle/10220/47471/THESIS_GUO%2520KEXIN_G1400180L.pdf%3Fsequence%3D1&hl=zh-CN&sa=X&d=7665655280644322246&scisig=AAGBfm0njtXltv-cbMLcxfW5K85Ixk-XSg&nossl=1&oi=scholaralrt&hist=3Pwx2kMAAAAJ:8091854961068759592:AAGBfm2trGFRZKGhbBitzOqs-u-1ftqAhA) 南洋理工UWB定位博士论文
 
 
 
